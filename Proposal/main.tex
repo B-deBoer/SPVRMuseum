@@ -1,0 +1,175 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{Small Project Proposal Virtual Reality Museum}
+
+\author{Bibi de Boer \and Wouter Florijn \and Xhi Jia Tan}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Virtual Reality (VR) is defined by Merriam-Webster \cite{merriam} as \emph{an artificial world that consists of images and sounds created by a computer and that is affected by the actions of a person who is experiencing it}. The artificial world can either be a representation of the real world, or an imaginary world \cite{martens}. VR systems in the past were relatively specialized systems with not many users \cite{martens}. Recent development in technology lets companies such as Oculus create the Rift \cite{oculus}, a virtual reality headset, introducing virtual reality to a more general public. As VR became more popular, even big companies such as Samsung and Google came up with their own VR variants \cite{gearvr, cardboard}, making VR possible on mobile devices. VR can be applied in different domains, even in those which do not have a direct association with computer technology. One of such domains is cultural heritage \cite{wojciechowski}.
+
+
+\subsection{Related Work}
+An example of how VR can be applied to cultural heritage, is to exhibit pieces for which museums do not have the space \cite{wojciechowski}. The ARCO system of Wojciechowski et al. \cite{wojciechowski} provides museums a tool to build and manage their Virtual and Augmented reality exhibitions. The Westfries museum Hoorn in the Netherlands created a VR experience \cite{westfries} as a piece of their exhibition to relive Hoorn in the Dutch Golden Age. Also, famous museums like Louvre provide virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to visit the museum without physically being there.
+
+Prior research and projects on this domain of VR in cultural heritage focuses on imitating the real environment or creating a new environment which portrays the environment like it was historically. Especially when talking about paintings, these art pieces are just still objects in the virtual environment, displayed in such a way that everything looks as realistic as possible.
+
+This project, however, has the goal of utilizing the possibilities of VR by creating virtual objects and effects to change the environment of the paintings. These changes would otherwise be very difficult, or in some cases even impossible, to represent in a real museum. The changes made to the environment of the art pieces might have an effect on the enjoyment level of the visitor and perhaps even enhance it, creating a new experience in visiting virtual museums.
+
+
+\section{The idea}
+We want to enhance the experience of watching a painting by adding effects. We thought of a lot of ways to alter the surroundings of the painting that would possibly enhance the experience of looking at a painting, as listed in table~\ref{tab:effect_ideas}. 
+
+\begin{table}
+\begin{tabular}{ | l | p{6cm} | }
+\hline
+\textbf{Only affects wall behind painting} & \textbf{Affects entire room} \\\hline
+Changing or static color on the wall & On all walls \\\hline
+Picture in genre of painting & \\\hline
+Video in genre of painting & \\\hline
+IllumiRoom 'weather effect' on wall & Moving freely through the room  \\\hline
+Picture in the style of the painting & Current camera image in the style of the painting \\\hline
+Extended painting & Extend the painting over all textures in the room \\\hline
+Wall in style of the painting & Room in style of the painting (altered 3D models or just altered textures) \\\hline
+\end{tabular}
+\caption{Different possible effects that can be applied to a museum room in VR}
+\label{tab:effect_ideas}
+\end{table}
+
+We decided to test some animated effects. We want to make the painting expand over the back wall while the user is watching it. We want to do this by using software that can expand the painting \cite{inpainting}. We want another effect where a picture is shown on the back wall, and the picture slowly changes to be in the same style as the painting \cite{gatys}. Lastly, we want to fill the room with particles that relate in some way to the painting (weather effects like the IllumiRoom \emph{Snow} effect\cite{illumiroom}), like snowflakes with a snowy painting or leaves with a painting of a forest. These effects are discussed in more detail in section \ref{sec:methods}.
+
+This will be done in in Virtual Reality. We want to be able to use effects that would be difficult or impossible to achieve in a real world museum. We chose for VR as opposed to AR as VR is at the moment in a later stage of development than Augmented Reality is. We also do not use a real room to factor out effects that could occur in a real room, like dirt or damage to the wall, or having a darkened room because an effect is achieved by using a projector. Additionaly, much more is possible in Augmented Reality than in reality, like gravity defying objects, and even more in Virtual Reality, like altering the (3D models of) furniture in the room.
+
+If time for this project allows it, we would like to test some of our other ideas as well. Another option to expand this research would be to add sound and music as an extra variable in changing environments.
+
+\subsection {Research Questions}
+We would like to figure out whether the chosen effects affect the experience of viewing a painting, and whether they affect the duration the viewer looks at the painting. We want to know which effect enhances the experience the most.
+
+\subsection {Hypothesis}
+We expect that every effect will \emph{keep the attention} of the viewer for a longer period of time than a regular painting in a white room would. We expect that the viewers will take more time to view the surroundings with the effects, while they might not spend more time watching the actual painting. We expect that this enhances the experience of viewing paintings for those who normally do not like to view paintings. The expanding painting option will probably amaze the most - more than a picture that becomes more and more in the same style of the painting, and more than the IllumiRoom inspired 'weather effects'.
+
+\section{Methods} \label{sec:methods}
+
+For our implementation, we will work with Google Cardboard. This is a VR device that uses a smartphone as a display. We chose this device because it is very well documented, easy to build for, and portable.
+
+We will implement various effects for different paintings and use them to conduct a user study. To generalize our study, we will use paintings with four different types of content, painted in two different artistic styles. For each combination, we will use two different paintings. This means we will use a total of sixteen different paintings. For the content we will use the following categories:
+
+\begin{itemize}
+\item Forests
+\item Seashores
+\item Snowy environments
+\item People
+\end{itemize}
+We will use the following styles:
+
+\begin{itemize}
+\item Realistic paintings
+\item Abstract paintings
+\end{itemize}
+For each painting, we will apply the following three effects:
+
+\begin{itemize}
+\item \textbf{Stylized picture.} For this effect we will overlay a picture on the wall behind the painting. The style of the painting will be applied to the picture using methods described in \cite{gatys}.
+\item \textbf{Extending the painting.} For this effect we will display content based on the painting on the wall behind it \cite{inpainting}.
+\item \textbf{Weather-like effects.} For this effect we will create 3D particles or objects based on the content of the painting (for example falling leaves for a painting of a forest) \cite{illumiroom}.
+\end{itemize}
+
+\subsection{Experiment Setup}
+
+For our experiment we will subdivide our participants into four groups. We will have one group for each effect and one control group who will be presented a default museum room. Each group will look at each of the sixteen paintings. For each person, the setup for the sixteen settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. This is to facilitate features of various effects. Apart from that, the room will be fairly plain to avoid distraction. The first three groups will each have an effect applied during the tests. Each of these groups will be presented with one of the three effects discussed above. The fourth group will simply be placed inside the default room with no effect applied. After a participant has finished the tests, he will fill out a survey.
+
+\subsubsection{Measurements}
+
+To measure the interest of participants, we will track the direction in which they are looking during the experiment. We will also track the amount of time they are looking at the painting to determine whether or not the environment draws away their attention from the painting. We will determine whether this has a positive or negative effect on the viewing experience with the survey.
+
+To measure presence we will use an adapted version of the presence questionnaire by Witmer \& Singer \cite{witmer}.
+
+To measure enjoyment we will use an adapted version of The Groningen Enjoyment Questionnaire \cite{stevens}.
+
+\subsection{Results}
+
+We will compare the measured variables between groups using independent-sample two-tailed t-tests. We will compare the results of each group with every other group to determine the relative difference between multiple effects and the default case. Our results will show the differences in terms of interest, presence and enjoyment for each combination of groups. We will then be able to draw conclusions and discuss the impact of the different effects.
+
+
+\section {Conclusion}
+This research will help expand the world of digital museums. In virtual reality, not everything has to behave like it would in the real world. This research explores and tries to expand the borders of virtual musea by adding effects that would normally be impractical without the use of VR. This specific area is largely unexplored and could open up a lot of possibilities.
+
+This research could possibly light new ideas for real life museums to make their exhibits interesting to people who would normally not visit them. This research could tell them what kind of effect would be interesting to those people, possibly interesting enough for them to visit the museum. These people could then look at the paintings through an Augmented Reality headset, or through the camera of their smartphone, while the regular visitors can still enjoy the painting on a bland wall. 
+
+\begin{thebibliography}{99}
+
+\bibitem{merriam} Merriam-Webster:
+\emph{Dictionary}
+Web [Last accessed on October 19, 2015]
+http://www.merriam-webster.com/dictionary/virtual\%20reality
+
+\bibitem{martens} Jon Martens \& Pavlo D. Antonenko:
+\emph{Narrowing gender-based performance gaps in virtual environment navigation},
+Computers in Human Behavior 28, p 809-819, 2012
+
+\bibitem{oculus}
+\emph{Rift}
+Web [Last accessed on October 20, 2015]
+https://www.oculus.com/ja/rift/
+
+\bibitem{gearvr}
+\emph{Samsung Gear VR}
+Web [Last accessed on October 20, 2015]
+http://www.samsung.com/global/microsite/gearvr/index.html
+
+\bibitem{cardboard}
+\emph{Google Cardboard}
+Web [Last accessed on October 20, 2015]
+https://www.google.com/get/cardboard/
+
+\bibitem{wojciechowski} Rafal Wojcieshowksi, Krzysztof Walczak, Martin White \& Wojcieh Cellary
+\emph{Building Virtual and Augmented Reality museum exhibitions},
+The Poznan University of Economics, Poland,
+University of Sussex, UK, 2014
+
+\bibitem{westfries}
+\emph{Kaap Varen}
+Web [Last accessed on October 19, 2015]
+http://wfm.nl/kaap-varen/
+
+\bibitem{louvre}
+\emph{Online Tours}
+Web [Last accessed on October 19, 2015]
+http://www.louvre.fr/en/visites-en-ligne
+
+\bibitem{gatys} Leon A. Gatys, Alexander S. Ecker \& Matthias Bethge:
+\emph{A Neural Algorithm of Artistic Style},
+CoRR, 2015
+
+\bibitem{witmer} Bob G. Witmer \& Michael J. Singer:
+\emph{Measuring Presence in Virtual Environments: A Presence Questionnaire},
+U.S. Army Research Institute for the Behavioral and Social Sciences, 1994
+
+\bibitem{stevens} Stevens et. al.:
+\emph{The Groningen Enjoyment Questionnaire: A measure of enjoyment in leisure-time physical activity},
+Perceptual and Motor Skills, 200
+
+\bibitem{illumiroom} Brett R. Jones, Hrvoje Benko, Eyal Ofek, Andrew D. Wilson:
+\emph{IllumiRoom: Peripheral Projected Illusions for
+Interactive Experiences},
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, p 869-878, 2013
+
+\bibitem{inpainting}
+\emph{Extending Van Gogh’s \emph{Starry Night} with Inpainting}
+Web [Last accessed on October 19, 2015]
+http://blog.wolfram.com/2014/12/01/extending-van-goghs-starry-night-with-inpainting/
+
+\end{thebibliography}
+
+\end{document}
