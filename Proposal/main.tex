@@ -6,6 +6,9 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{verbatim}
+\usepackage{tikz}
+\usepackage{array}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 \title{Small Project Proposal Virtual Reality Museum}
 
@@ -20,20 +23,22 @@
 
 Virtual Reality (VR) is defined by Merriam-Webster \cite{merriam} as \emph{an artificial world that consists of images and sounds created by a computer and that is affected by the actions of a person who is experiencing it}. The artificial world can either be a representation of the real world, or an imaginary world \cite{martens}. VR systems in the past were relatively specialized systems with not many users \cite{martens}. In 2012, Oculus created a Kickstarter \cite{kickstarter} for the Rift \cite{oculus}, a virtual reality headset. The project was funded and  introduced virtual reality to a more general public. As VR became more widely used, larger companies such as Samsung and Google developed their own VR variants \cite{gearvr, cardboard}, enabling the use of VR on mobile devices. 
 
-VR can be applied in different domains, including those which do not have a direct association with computer technology. One of such domains is cultural heritage \cite{wojciechowski}, and more specifically, museums. This research will be focused on virtual museums. Work in this domain has focused mainly on realistic recreation of existing museums and collections. However, VR provides many possibilities beyond this purpose. Using VR, scenarios could be created that would be impractical or even impossible to create in the real world. Therefore, this research will look beyond simply replicating museums, and will aim to find new ways of improving the user experience by using illusions in VR.
+VR can be applied in different domains, including those which do not have a direct association with computer technology. One of such domains is cultural heritage \cite{wojciechowski}, and more specifically, museums. This research will be focused on virtual museums. Work in this domain has focused mainly on realistic recreation of existing museums and collections. However, VR provides many possibilities beyond this purpose. Using VR, scenarios could be created that would be impractical or even impossible to create in the real world. Therefore, this research will look beyond simply replicating museums, and will aim to find new ways of improving the user experience by using illusions in VR to alter the surroundings of a painting in a virtual museum setting.
 
 
 \subsection{Virtual Museums}
-Many connections have already been made between museums and the virtual  world. For example, the famous Louvre museum provides virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to visit the museum without physically being there. Instead of using pictures, Wojciechowski et al. \cite{wojciechowski} developed the ARCO system that provides museums to build and manage their Virtual and Augmented reality exhibitions. Whole virtual museums can be built. Additionally, museums are able to show pieces for which they do not have the physical space. The creation of a virtual space can even be taken a step further by creating a whole different virtual scene. The Westfries museum in Hoorn in the Netherlands has created a VR experience \cite{westfries} as a piece of their exhibition, to relive Hoorn in the Dutch Golden Age.
+Many connections have been made between museums and the virtual  world. For example, the famous Louvre museum provides virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to 'visit' the museum without physically being there. Instead of using pictures, Wojciechowski et al. \cite{wojciechowski} developed the ARCO system that provides museums tools to build and manage their Virtual and Augmented reality exhibitions. Using the ARCO system, Whole virtual museums can be built. This enables museums to show pieces for which they do not have the physical space. 
+
+The creation of a virtual space can even be taken a step further by creating a whole different virtual scene. The Westfries museum in Hoorn in the Netherlands has created a VR experience \cite{westfries} as a piece of their exhibition, allowing visitors to relive Hoorn in the Dutch Golden Age.
 These projects on the domain of VR in cultural heritage focus on imitating the original environment, or on creating a new environment which portrays the environment like it was historically.
 
 \subsection{Altering the Environment of Paintings}
-VR is also applied to art museums that mainly display paintings.
-\textbf{A section about a paper about regular virtual museums has to be inserted here, but we have not read a suitable paper yet. Perhaps an article about the stolen art museum is suitable though. This needs to bridge the gap between the previously mentioned VR museums and exhibitions of paintings.}
 
-The traditional setup of a quiet white room is not the only way to display paintings. The Tate Sensorium \cite{tate1} in Tate Britain added touch, taste, smell and sound in their galleries \cite{tate2}. The setting of the painting was modified by adding more modalities to change the way viewers perceive it. Using VR, these modalities can also be used, without needing to adapt the physical environment. This project however does not have the goal to imitate the Tate Sensorium in the VR space. Instead, it will make use of a different sense, vision, to enhance the experience of viewing paintings.
+%\textbf{A section about a paper about regular virtual museums has to be inserted here, but we have not read a suitable paper yet. This needs to bridge the gap between the previously mentioned VR museums and exhibitions of paintings.}
 
-The IllumiRoom system \cite{illumiroom} enhances the experience of playing a game or watching a movie by projecting additional information around the high resolution display, in the peripheral view of the user. Various illusions are discussed in the paper, all of which add extra context based on events occurring on the display. The IllumiRoom system augments the physical surrounding of the player to create a better gaming experience. In the IllumiRoom system, this augmenting feature is used with games to create a better gaming experience. However, changing the surrounding can also be done for other objects of interest. In our case, the environment of paintings will be changed in order to create a better experience while viewing paintings.
+The traditional setup of a quiet white room is not the only way to display paintings. The Tate Sensorium \cite{tate1} in Tate Britain added touch, taste, smell and sound in their galleries \cite{tate2}. The setting of the painting was modified by adding more modalities to change the way viewers perceive it. Using VR, these modalities can also be used, without the need to adapt the physical environment. This project however does not have the goal to imitate the Tate Sensorium in the VR space. Instead, it will make use of a different sense, vision, to enhance the experience of viewing paintings.
+
+The IllumiRoom system \cite{illumiroom} enhances the experience of playing a game or watching a movie by projecting additional information around the high resolution display, in the peripheral view of the user. Various illusions are discussed in the paper, all of which add extra context based on events occurring on the display. The IllumiRoom system augments the physical surroundings of the player to create a better gaming experience. In the IllumiRoom system, this augmenting feature is used with games to create a better gaming experience. However, changing the surrounding can also be done for other objects of interest. In our case, the environment of paintings will be changed in order to create a different experience while viewing them.
 
 % IllumiRoom references: [18, 14, 13, 29, 1]
 %need more directly related work: ambilight
@@ -44,24 +49,22 @@ A museum usually provides different types of exhibitions pieces. This project wi
 
 
 % why it should be implemented in a vr museum and not in a real museum. NOT why we use vr. Let's assume our focus is to create a better experience in VR museums, which might spark interest in real museums.
-The environment of the paintings is changed by adding illusions. They can for example consist of creating new objects or showing animations. These illusions are not simple to realize in physical museums. Especially animated illusions are difficult to create in galleries without the necessary equipment. Projectors can be used to project animations on the walls, but this would result in shadows when people are walking by. The room would also have to be dark in order to make the projection properly visible. Large displays can be used to avoid these issues. However, these screens require a considerable amount of money. Due to these shortcomings, VR museums are a more suitable medium for the realization of these illusions. 
+The environment of the paintings is changed by adding illusions. They can for example consist of creating new objects or showing animations. These illusions are not simple to realize in physical museums. Especially animated illusions are difficult to create in galleries without the necessary equipment. Projectors can be used to project animations on the walls, but this would result in shadows when people are walking by. The room would also have to be dark in order to make the projection properly visible. Large displays can be used to avoid these issues. However, these screens require a considerable amount of money. 
+
+Finally, using VR allows us to create a unique experience for each user, as opposed to having them all see the exact same thing. For these reasons, VR museums are a more suitable medium for the realization of these illusions. Additionally, the benefits and novelty of VR could create a stimulating effect for people who otherwise would not visit museums, which could eventually generate interest in museums in general.
 
 \section{Research Goal}
-The goal of this research is to find ways of improving the user experience in a virtual museum setting. Of course, there is a wide variety of museums. We focus on exhibitions of paintings in particular. We aim to find interesting illusions that could be applied in various applications related to virtual museums. Visible alterations are used to change the environment of the paintings. This might open up new possibilities and ideas for creating new virtual museums and possibly spark interest in those who are normally not interested in visiting museums.
+The goal of this research is to find ways of improving the user experience in a virtual museum setting. While there are various types of museums, we focus on exhibitions of paintings in particular. Since paintings can be displayed as 2D images, various image processing techniques can be applied to them, which are useful for some of our methods. We aim to find interesting illusions that could be applied in various applications related to virtual museums. Visible alterations are used to change the environment of the paintings. As it is a big part of user experience, we look into the enjoyment a user experiences when looking at paintings in the altered environment. This might open up new possibilities and ideas for creating new virtual museums and possibly spark interest in those who are normally not interested in visiting museums.
 
 \subsection {Research Questions}
 
-% een alinea over de grote lijn van onderzoek die research goal verkleind naar deze questions
-
-We will investigate how illusions affect the experience of viewing a painting. This leads us to the research question:
+As indicated by our research goal, we aim to answer the following question:
 \begin{itemize}
-\item{\emph{How do illusions affect the experience of viewing a painting in a VR setting?}}
+\item{\emph{How do illusions affect the experience of viewing a painting in a VR museum setting?}}
 \end{itemize}
 The illusions will be defined and explained in section \ref{design space}. 
 
-In this research, the enjoyment of the user is seen as a big part of the user experience. As the virtual museum is a VR experience, the user's sense of presence, the feeling of being in the virtual world, might also influence the level of enjoyment. These two metrics have been shown to be correlated in related applications \cite{sylaiou}. Though this is not definitive proof that they are correlated in the context of virtual museums, it indicates that they might be linked in more general cases. Therefore, these two metrics are a good indication of the overall user experience.
-
-This results in two sub questions:
+In this research, the enjoyment of the user is seen as a big part of the user experience. As the virtual museum is a VR experience, the user's sense of presence, the feeling of being in the virtual world, might also influence the level of enjoyment. These two metrics have been shown to be correlated in related applications \cite{sylaiou}. This is a strong indication that they are correlated in the context of virtual museums, and thus in the context of our research. Therefore, measuring the presence is essential to gauge the enjoyment. Enjoyment can then in turn represent the user experience. This results in two subquestions:
 
 \begin{itemize}
 \item{\emph{How do the illusions influence the enjoyment of viewing a painting?}}
@@ -71,16 +74,16 @@ This results in two sub questions:
 \item{\emph{How do the illusions influence the sense of presence in the world of the virtual museum?}}
 \end{itemize}
 
-Besides the sense of presence and enjoyment the user experiences in the virtual world, it is important to look at the user’s connection to the painting specifically. With the illusions, we aim to create a stronger connection between the user and the painting by extending characteristics of the painting beyond its frame. 
+Besides the sense of presence and enjoyment the user experiences in the virtual world, it is also important to look at the user’s connection to the painting specifically. With the illusions, we aim to create a stronger connection between the user and the painting by extending characteristics of the painting beyond its frame. We aim to make the user feel more like he is part of the world of the painting, than of the world of the museum. This type of connection can be seen as a second layer of presence in a virtual world; the presence in the world of the painting. We will refer to this type of presence as connectedness, and ask the following subquestion:
 
 \begin{itemize}
 \item{\emph{How do the illusions influence the sense of connectedness to the painting?}}
 \end{itemize}
 
-Furthermore, we are also interested in whether or not the illusions can generate more interest in art for people who are generally not interested in visiting museums. For this we want to know if the illusions create more interest to users compared to the VR museum settings without illusions. The level of interest can be defined as the duration they are looking at the painting or the environment. This gives raise to the following sub question:
+Furthermore, we are also interested in whether or not the illusions can generate more interest in art for people who are generally not interested in visiting museums. For this we want to know if the illusions create more interest to users compared to the VR museum settings without illusions. One indication for interest would be the duration people look at the painting directly. This gives raise to the following subquestion:
 
 \begin{itemize}
-\item{\emph{How much does the duration differ from when the user is looking at the painting with and without illusions?}}
+\item{\emph{How do the illusions influence the interest in the painting?}}
 %mss overbodig... point of interest vertelt niet hoe iemand "meer" geinteresseerd is
 %\item{\emph{What part of the setting is the center point of attention?}}
 \end{itemize}
@@ -108,27 +111,32 @@ IllumiRoom 'weather illusion' on wall & Moving freely through the room  \\\hline
 \end{comment}
 
 \begin{itemize}
-\item Affecting wall behind painting
+\item Affecting the walls
 \begin{itemize}
 \item Directly around the painting
-\item The whole wall
+\item The entire wall behind the painting
+\item Multiple walls
 \end{itemize}
-\item Affecting the room
+\item Affecting the 3D space of the room
 \begin{itemize}
-\item Walls of the room
-\item The 3D space
+\item A specific area
+\item The entire 3D space
 \end{itemize}
 \end{itemize}
 
-\subsection{Static Illusions}
+%For this research, only illusions affecting the whole wall and the 3D space will be used. The reason for this is to test if the illusions work when fully applied compared to no illusions at all. This way making decisions about the size of the area influenced by the illusions can be avoided.
 
-In this subsection we will discuss the part of the design space consisting of static illusions. These illusions will alter the surroundings of the painting without the use of animations. This will serve as an introduction to the animated illusions, which we will discuss in section \ref{sec:animeffects}.
+For this research, only illusions affecting the entire 3D space or the wall behind the painting will be considered. Since there are infinitely many ways of designing and partitioning a room, this decision is necessary to reduce the design space to a feasible number of possibilities. Besides the shape and location of the illusions, we can also distinguish between static and animated illusions. We will describe these categories of illusions in sections \ref{sec:stateffects} and \ref{sec:animeffects} respectively.
+
+\subsection{Static Illusions}\label{sec:stateffects}
+
+In this subsection we will discuss the part of the design space consisting of static illusions. These illusions will alter the surroundings of the painting without the use of animations. This will serve as an introduction to the animated illusions, which will be discussed in section \ref{sec:animeffects}.
 %In this section we will give examples of static effects to change the surroundings of a painting. %We will then go into more detail about the illusions we will use in section \ref{sec:animeffects}.
 
 \begin{itemize}
 
 \item{\textbf{Static color on the wall}}
-\\One of the most basic things to do to change the direct environment of a painting is to simply paint the wall in a color that makes the painting stand out better. The best color is a color that the user does not notice and where he only remembers the colors of the painting \cite{colorwall}. These colors could also affect the ambiance of the room and the mood of the person\cite{mood} viewing the painting. This illusion could affect only the wall around the borders of the painting, the whole wall the painting is hanging from, or the entire room.
+\\One of the most basic things to do to change the direct environment of a painting is to simply paint the wall in a color that makes the painting stand out better. The best color is a color that the user does not notice and where he only remembers the colors of the painting \cite{colorwall}. These colors could also affect the ambiance of the room and the mood of the person\cite{mood} viewing the painting. This illusion could affect only the whole wall the painting is hanging from, or the entire room.
 
 \item{\textbf{Picture of same subjects as the painting}} 
 \\Another change would be to decorate the wall with a picture. In some museums, when displaying a collection of pictures or drawings, one of the images is shown on the back wall behind the frames (fig \ref{fig:picturewall}).
@@ -141,11 +149,11 @@ In this subsection we will discuss the part of the design space consisting of st
 \end{figure}
 
 \item{\textbf{Picture in style of the painting}}
-\\In \cite{gatys}, a picture is altered to be stylized in the same way as a painting is. An image is produced that still shows the content of the picture, but it appears to be painted in the same style as the painting. Instead of using a regular picture as in the example above, the picture could be processed to get the same style as the painting. Again they can be pasted on the wall behind the painting. This could make for a better backdrop to the painting than a regular picture would, as it better resembles the painting. Since the algorithm can be applied to any type of image, three different ways of applying it in our museum setting come to mind. 
+\\In \cite{gatys}, a picture is altered to be stylized in the same way as a painting is. An image is produced that still shows the content of the picture, but it appears to be painted in the same style as the painting. Instead of using a regular picture as in the example above, the picture could be processed to get the same style as the painting. That picture can then be displayed on the wall behind the painting. This could make for a better backdrop to the painting than a regular picture would, as it better resembles the painting. Since the algorithm can be applied to any type of image, three different ways of applying it in our museum setting come to mind. 
 
 Firstly, the style of the painting could simply be applied to a single object in the environment, such as a picture projected on a wall. This could easily be done using preprocessing. 
 
-Secondly, the style could be applied as a post-processing effect to the user's field of view. Each frame the user sees through the VR device will be processed to have the same style as the painting. However, some issues can be foreseen with this type of application, as processing might take too long to maintain a decent framerate and a very subtle change in head orientation could cause a very large change in the rendered view. 
+Secondly, the style could be applied as a post-processing effect to the user's field of view. Each frame the user sees through the VR device will be processed to have the same style as the painting. However, some issues can be foreseen with this type of application, as processing might take too long to maintain a decent framerate. Additionally, a very subtle change in head orientation could cause a very large change in the rendered view, as the entire frame would have to go through the process again. 
 
 Finally, we can apply the style of the painting to the textures of all objects in the room. This way we can take advantage of preprocessing and therefore avoid the drawbacks of the previous method. A possible downside however, is that the illusion would only be applied to textures and therefore would not affect 3D shapes and shadows.
 
@@ -161,23 +169,37 @@ Some illusions mentioned in the previous section can also have an animated varia
 \begin{itemize}
 
 \item{\textbf{Changing colors on the wall}}
-\\In the virtual space, the wall would not need to be one color, but could change color over time to create different different moods.
+\\In the virtual space, the wall would not need to be one color, but could change color over time to create different moods.
 
 \item{\textbf{Video related to the painting}}
 \\A video would be the more dynamic version of the still picture. For example, behind old news pictures, a news video covering the same event could be shown. The emphasis would still be on the pictures, and the video could intensify the experience by making the surroundings supplement the displayed art.
 
 \item{\textbf{Picture in style of the painting}}
-\\Another animation illusion uses a picture shown on the back wall, where the picture slowly morphs into the same style as the painting. In \cite{gatys}, the grade of stylization can be controlled. In this way, multiple images can be produced that are in style somewhere in between the unaltered picture and the style of the painting. With those, an animation can be made of the picture slowly changing to match the style of the painting.
+\\Another animated illusion uses a picture shown on the back wall, while the picture slowly morphs into the same style as the painting. In \cite{gatys}, the grade of stylization can be controlled. In this way, multiple images can be produced that are in style somewhere in between the unaltered picture and the style of the painting. With those, an animation can be made of the picture slowly changing to match the style of the painting.
 
 \item{\textbf{Extending Painting}}
 \\For this animated illusion, the painting expands over the back wall while the user is watching it. This can be done by using painting expansion software \cite{inpainting}. The wall around the painting is filled with textures extrapolated from the painting.
 
 
 \item{\textbf{IllumiRoom 'weather illusions'}}
-\\Lastly, the room or walls can be filled with particles that relate in some way to the painting, like snowflakes for a snowy painting or leaves for a painting of a forest in fall. Instead of basing these illusions solely on weather, they can be generalized to various particle effects based on the setting of the painting. These illusions are based on the IllumiRoom \emph{Snow} illusion \cite{illumiroom} and are discussed in more detail in section \ref{sec:methods}.
+\\Lastly, the room or the walls can be filled with particles that relate in some way to the painting, like snowflakes for a snowy painting or leaves for a painting of a forest in fall. Instead of basing these illusions solely on weather, they can be generalized to various particle effects based on the setting of the painting. These illusions are based on the IllumiRoom \emph{Snow} illusion \cite{illumiroom} and are discussed in more detail in section \ref{sec:methods}.
 \end{itemize}
 
 For this research, the animated illusions of the stylized picture, extension of the painting and the IllumiRoom weather illusion appear to be the most promising to see as a visual effect. These illusions can be applied to almost any kind of painting and use modifications based directly on the painting. They can be customized extensively to fit the need of the user or curator, but also leave open the option of automatization. These illusions are very hard or even impossible to create in real museums. However, by utilizing the aspects of virtual reality, these illusions can be created in a virtual museum.
+
+Not every type of illusion is suitable to be applied on both the wall as well as in the 3D space. The same can be said about whether these illusions only have an animated version, or a static version as well. In table \ref{tab:ourillusions}, the suitable combinations can be found. These will also be the cases that are going to be tested.   
+
+\begin{table}
+\centering
+\begin{tabular}{ | l | >{\centering}p{1.7cm} >{\centering}p{1.7cm} >{\centering}p{1.7cm} c | }
+\hline
+ & Wall space & 3D space & Static & Animated \\\hline
+Stylized & $\surd$ &  & $\surd$ & $\surd$ \\
+Extended & $\surd$ &  & $\surd$ & $\surd$ \\
+Weather & $\surd$ & $\surd$ &  & $\surd$ \\\hline
+\end{tabular}
+\caption{\label{tab:ourillusions}The illusions used in this research and their tested spaces in the room}
+\end{table}
 
 \begin{comment}
 \section{Research Goal}
@@ -202,16 +224,14 @@ We are also interested in what they find most interesting to look at - are they 
 The application will be implemented using Google Cardboard. Google Cardboard is a VR device that uses a smartphone as a display. This device has the benefit of being cheap, portable and easy to use, making it easily accessible to museums or individuals.
 
 %uitleg nodig dat 16 paintings voldoende is om te generaliseren?
-To answer our research questions, we will implement various illusions for different paintings and use them to conduct a user study. Paintings with four different types of content, painted in two different artistic styles will be used. For each combination, two different paintings will be selected as a representation. This means we will use a total of sixteen different paintings. In order to achieve reliable results, the paintings used will be carefully selected, so that they provide a good representation of a large collection of paintings. Even though this will likely not be sufficient to represent all paintings, with this selection, we aim to provide a fair sample of a vast group of paintings they belong to.
+To answer our research questions, we will implement various illusions for different paintings and use them to conduct a user study. Paintings with three different types of content, painted in two different artistic styles will be used. For each combination, two different paintings will be selected as a representation. This means that we will use a total of twelve different paintings. In order to achieve reliable results, the paintings used will be carefully selected, so that they provide a good representation of a large collection of paintings. The selected paintings can be found in appendix~\ref{sec:paintings}. Even though this will likely not be sufficient to represent all paintings, with this selection, we aim to provide a fair sample of a vast group of paintings they belong to.
 
-%people eruit laten? dus op landschap paintings testen?
 For the content we will use the following categories:
 
 \begin{itemize}
 \item \textbf{Forests.} Paintings of forests, depicting trees and other foliage.
-\item \textbf{Seashores.} Paintings containing both sea and land.
-\item \textbf{Snowy environments.} Paintings of landscapes covered in snow, where snow is falling.
-\item \textbf{People.} Paintings depicting groups of people.
+\item \textbf{Seascapes.} Paintings of open sea or seashores containing both sea and land.
+\item \textbf{Snowy environments.} Paintings of landscapes covered in snow, paintings where snow is falling.
 \end{itemize}
 
 We have chosen these categories because they are general enough to represent a large subgroup of all paintings, yet they are easy to distinguish between because of their well-defined characteristics.
@@ -219,26 +239,26 @@ We have chosen these categories because they are general enough to represent a l
 We will use the following artistic styles:
 
 \begin{itemize}
-\item \textbf{Realistic paintings.} Paintings depicting the content in an accurate and realistic way.
-\item \textbf{Abstract paintings.} Paintings depicting the content using shapes, colors and stylization that do not exist in realistic scenes.
+\item \textbf{Photorealistic paintings.} Paintings depicting the content in an accurate and realistic way.
+\item \textbf{Stylized paintings.} Paintings depicting the content with a distinctive style, like coarse brush strokes.
 \end{itemize}
 
-We have chosen these two different styles to be able to investigate the effects of the illusions for different types of paintings. If an illusion works well for a realistic painting, this doesn't imply it also works well for an abstract painting.
+We have chosen these two different styles to be able to investigate the effects of the illusions for different types of paintings. If an illusion works well for a photorealistic painting, this doesn't imply it also works well for a stylized painting.
 
-As discussed in section \ref{sec:animeffects} we will apply the following three animated illusions for each painting:
+As discussed in section \ref{sec:animeffects}, we will apply the following three animated illusions for each painting:
 
 \begin{itemize}
-\item \textbf{Stylized picture.} For this illusion we will overlay a picture on the wall behind the painting. The style of the painting will be applied to the picture using methods described in \cite{gatys}. Pictures will be different for each painting and will be selected to have content similar to the painting.
-\item \textbf{Extending the painting.} For this illusion we will display content based on the painting on the wall behind it \cite{inpainting}.
-\item \textbf{Weather-like effects.} For this illusion we will create 3D particles or objects based on the content of the painting. For paintings of landscapes with clear weather conditions, these particles will be based on the weather and will include snow or falling leaves. For other paintings, these particles will be based on other types of content. For seashores, the particles will consist of sand and water, while for paintings of people, the particles will be adapted to fit the specific situation depicted on the painting.
+\item \textbf{Stylized picture.} For this illusion we will overlay a picture on the wall behind the painting. The style of the painting will be applied to the picture using methods described in \cite{gatys}. Pictures will be different for each painting and will be selected to have content similar to the painting. This illusion will be used as animation as well as static.
+\item \textbf{Extending the painting.} For this illusion we will display content based on the painting on the wall behind it \cite{inpainting}. This illusion will be used as animation as well as static.
+\item \textbf{Weather-like effects.} For this illusion we will create 3D particles or objects based on the weather conditions and content of the painting. These particles will include snow, rain or falling leaves. This illusion will be tested both when displayed on the wall behind the painting, as in the 3D space of the room.
 \end{itemize}
 
 \subsection{Experiment Setup}
 
 The animated illusions can be implemented in various ways, including different values for parameters such as speed or behaviors of animation. To get a set value for these settings, a pre-experiment will be done to find the most promising settings in terms of enjoyment and presence. This can first be done internally and then tested on three to five people, giving their opinion about the different settings of the illusions. These participants are not allowed to join the main experiment anymore as they have seen the illusions before. This can influence their final judgment.
 
-For the main experiment, participants will be subdivided into four groups. These groups consist of at least twenty participants. We will have one group for each illusion, and one control group to which a default museum room will be presented. Each group will look at each of the sixteen paintings. 
-For each participant, the environment for the sixteen settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. These objects will be used to facilitate features of various illusions. Apart from this, the room will be fairly plain in order to avoid distraction.
+For the main experiment, participants will be subdivided into four groups. These groups consist of at least twenty participants. We will have one group for each illusion, and one control group to which a default museum room will be presented. Each group will look at each of the twelve paintings. 
+For each participant, the environment for the twelve settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. These objects will be used to facilitate features of various illusions. Apart from this, the room will be fairly plain in order to avoid distraction.
 
 The first three groups will each have an illusion applied during the tests. Each of these groups will be presented with one of the three illusions discussed above. The fourth group will simply be placed inside the default room with no illusion applied. After a participant has finished the tests, he will fill out a survey. 
 
@@ -252,11 +272,11 @@ The measured variables will be statistically analyzed. We will compare the resul
 
 
 \section {Hypothesis \& Conclusion}
-We expect that every illusion will captivate users more than a regular painting in a white room would, causing them to use the application for a longer period of time. Adding these illusions will create a new virtual museum experience, resulting that it might pique the interest of those who are normally not interested in museums. They might go take the virtual museum tour for the illusions, however, they will be exposed to the paintings nevertheless providing a chance to raise their interest in art. 
+We expect that every illusion will captivate users more than a regular painting in a white room would, causing them to use the application for a longer period of time. Adding these illusions will create a new virtual museum experience, that might pique the curiosity of those who are normally not interested in museums. They might take the virtual museum tour for the illusions, and will then be exposed to the paintings nevertheless, providing a chance to raise their interest in art. 
 
 This research will help expand the world of digital museums. In virtual reality, not everything has to behave like it would in the real world. This research explores and tries to expand the borders of virtual museums by adding illusions that would be impractical without the use of VR. This specific area is largely unexplored. Research in this area could open up a lot of possibilities.
 
-Real life museums could make their exhibits more interesting to people who would normally not visit them. This research could tell them what kind of illusion would be interesting to those people. These people could then look at the paintings through an Augmented Reality headset, or through the camera of their smartphone, while the regular visitors can still enjoy the painting on a bland wall. Alternatively, they could visit parts of the museum in VR, and visit the real museum afterwards.
+Real life museums could make their exhibits more interesting to people who would normally not visit them. This research could tell them what kind of illusion would be interesting to those people. These people could then look at the paintings through an Augmented Reality headset, or through the camera of their smartphone, while the regular visitors can still enjoy the painting on the background of a bland wall. Alternatively, they could visit parts of the museum in VR, and visit the real museum afterwards.
 
 
 
@@ -359,5 +379,338 @@ http://www.theguardian.com/artanddesign/jonathanjonesblog/2011/oct/21/colour-gal
 
 
 \end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\appendix
+\section{Paintings} \label{sec:paintings}
+
+
+
+\subsection{Stylized}
+\subsubsection{Forest}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg}
+    \caption{\emph{Autumn Oaks} - George Inness}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=0.85\textwidth]{ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autumn.jpg}
+    \caption{\emph{Avenua of Populars in Autumn} - Vincent van Gogh}
+\end{minipage}
+\end{figure}
+
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=0.9\textwidth]{ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg}
+\end{minipage}
+\begin{minipage}[t]{.49\textwidth}
+	\caption{\emph{Autumn Color} - Marsden Hartley}
+\end{minipage}
+\begin{minipage}[t]{.49\textwidth}
+	\caption{\emph{Poplars} - Claude Monet}
+\end{minipage}
+\end{figure}
+
+\newpage
+\subsubsection{Sea}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Stl__caillebotteboatsontheseineatargenteuil.jpg}
+    \caption{\emph{Boats on the Seine at Argenteuil} - Gustave Caillebotte}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Stl__aivazovskyshipinstormysea.jpg}
+    \caption{\emph{Ship in the Stormy Sea} - Ivan Avaizovsky}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Stl__vangoghfishingboatsonthebeachatsaintesmarries.jpg}
+    \caption{\emph{Fishing Boats on the Beach at Saintes-Maries} - Vincent van Gogh}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Stl__caillebottesailingboatsatargenteuil.jpg}
+    \caption{\emph{Sailing Boats at Argenteuil} - Gustave Caillebotte}
+\end{minipage}
+\end{figure}
+
+\newpage
+\subsubsection{Snow}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Stl__Road_by_Saint-Sim_on_Farm_in_Winter_-_Monet}
+    \caption{\emph{Road by Saint-Siméon Farm in Winter} - Claude Monet}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Stl__Dolmen_in_the_Snow_-_Caspar_David_Friedrich.jpg}
+    \caption{\emph{Dolmen in the Snow} - Caspar David Friedrich}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Stl__Road_to_V_theuil__Snow_Effect_-_Monet.jpg}
+    \caption{\emph{Road to Vétheuil, Snow Effect} - Claude Monet}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Stl__Edvard_Munch_-_The_Yellow_Log_-_Google_Art_Project}
+    \caption{\emph{The Yellow Log} - Edvard Munch}
+\end{minipage}
+\end{figure}
+
+
+\newpage
+\subsection{Extended}
+\subsubsection{Forest}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg}
+    \caption{\emph{Autumn Oaks} - George Inness}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Ext__Gerard_Bilders_-_Bosvijver_bij_Zonsondergang.jpg}
+    \caption{\emph{Bosvijver bij Zonsondergang} - Gerard Bilders}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Ext__Henri_Matisse_-_Olive_Trees_at_Collioure.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg}
+\end{minipage}
+\begin{minipage}[t]{.49\textwidth}
+	\caption{\emph{Olive Trees at Collioure} - Henri Matisse}
+\end{minipage}
+\begin{minipage}[t]{.49\textwidth}
+	\caption{\emph{Poplars} - Claude Monet}
+\end{minipage}
+\end{figure}
+
+
+\newpage
+\subsubsection{Sea}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Ext__dahlmorningafterastormynight.jpg}
+    \caption{\emph{Morning after a Stormy Night} - Johan Dahl}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Ext__backhuysenshipsrunningagroundinastorm.jpg}
+    \caption{\emph{Ships Running Aground in a Storm} - Ludolf Backhuysen}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Ext__Stormy_Sea_-_Monet.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Ext__monetstormoffbelleile.jpg}
+\end{minipage}
+\begin{minipage}[t]{.49\textwidth}
+	\caption{\emph{Stormy Sea} - Claude Monet}
+\end{minipage}
+\begin{minipage}[t]{.49\textwidth}
+	\caption{\emph{Storm off Belle-Île} - Claude Monet}
+\end{minipage}
+\end{figure}
+
+\newpage
+\subsubsection{Snow}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Ext__Fir_Trees_in_the_Snow_-_Caspar_David_Friedrch.jpg}
+    \caption{\emph{Fir Trees in the Snow} - Caspar David Friedrich}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Ext__A_Panoramic_Winter_Landscape_-_Hendrick_Avercamp.jpg}
+    \caption{\emph{A Panoramic Winter Landscape} - Hendrick Avercamp}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Ext__turnersnowstormhannibalandhisarmycrossingthealps.jpg}
+    \caption{\emph{Snow Storm, Hannibal and his Army Crossing the Alps} - Joseph Turner}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Ext__josephmallordwilliamturnersnowstorm.jpg}
+    \caption{\emph{Snow Storm: Steam-Boat off a Harbour's Mouth} - Joseph Turner}
+\end{minipage}
+\end{figure}
+
+\newpage
+\subsection{Weather}
+
+\subsubsection{Forest}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Wth__Isaak_Ilyich_Levitan_-_Golden_Autumn.jpg}
+    \caption{\emph{Golden Autumn} - Isaak Ilyich Levitan}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=0.9\textwidth]{ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autumn.jpg}
+    \caption{\emph{Avenua of Populars in Autumn} - Vincent van Gogh}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg}
+    \caption{\emph{Autumn Color} - Marsden Hartley}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg}
+    \caption{\emph{Poplars} - Claude Monet}
+\end{minipage}
+\end{figure}
+
+\newpage
+\subsubsection{Sea}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Wth__mulierjongestormatsea.jpg}
+    \caption{\emph{Storm at Sea} - Pieter Mulier de Jonge}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Wth__backhuysenroughwater.jpg}
+    \caption{\emph{Fishing Boats and Coasting Vessel in Rough Weather} - Ludolf Backhuysen}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Wth__vangoghbeachscheveningenstormyweather.jpg}
+    \caption{\emph{Beach at Scheveningen in Stormy Weather} - Vincent van Gogh}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SeaPaintings/_Wth__pieterbruegeldeoudestormatsea.jpg}
+    \caption{\emph{Storm at Sea} - Pieter Bruegel de Oude}
+\end{minipage}
+\end{figure}
+
+\newpage
+\subsubsection{Snow}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Wth__Winter_Landscape_-_Hendrick_Avercamp.jpg}
+    \caption{\emph{Winter Landscape} - Hendrick Avercamp}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Wth__The_Magpie_-_Monet.jpg}
+    \caption{\emph{The Magpie} - Claude Monet}
+\end{minipage}
+\end{figure}
+
+\begin {figure}[h!]
+\centering
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Wth__The_Hunters_in_the_Snow__January__-_Bruegel.jpg}
+    \caption{\emph{} - Pieter Bruegel de Oude}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{.49\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{SnowPaintings/_Wth__Boulevard_Saint-Denis__Argenteuil__in_Winter_-_Monet.jpg}
+    \caption{\emph{Boulevard Saint-Denis, Argenteuil, in Winter} - Claude Monet}
+\end{minipage}
+\end{figure}
+
 
 \end{document}
