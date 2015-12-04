@@ -17,20 +17,33 @@
 
 \section{Introduction}
 
-Virtual Reality (VR) is defined by Merriam-Webster \cite{merriam} as \emph{an artificial world that consists of images and sounds created by a computer and that is affected by the actions of a person who is experiencing it}. The artificial world can either be a representation of the real world, or an imaginary world \cite{martens}. VR systems in the past were relatively specialized systems with not many users \cite{martens}. Recent development in technology lets companies such as Oculus create the Rift \cite{oculus}, a virtual reality headset, introducing virtual reality to a more general public. As VR became more popular, larger companies such as Samsung and Google developed with their own VR variants \cite{gearvr, cardboard}, enabling the use of VR on mobile devices. VR can be applied in different domains, even in those which do not have a direct association with computer technology. One of such domains is cultural heritage \cite{wojciechowski}. Work in this domain has focused mainly on realistic recreation of existing scenes and objects. However, VR provides many possibilities beyond this purpose. Using VR, scenarios could be created that would be impractical or even impossible to create in the real world.
+Virtual Reality (VR) is defined by Merriam-Webster \cite{merriam} as \emph{an artificial world that consists of images and sounds created by a computer and that is affected by the actions of a person who is experiencing it}. The artificial world can either be a representation of the real world, or an imaginary world \cite{martens}. VR systems in the past were relatively specialized systems with not many users \cite{martens}. In 2012, Oculus created a Kickstarter\cite{kickstarter} for the Rift \cite{oculus}, a virtual reality headset. The project was funded and  introduced virtual reality to a more general public. As VR became more widely used, larger companies such as Samsung and Google developed their own VR variants \cite{gearvr, cardboard}, enabling the use of VR on mobile devices. 
+
+VR can be applied in different domains, including those which do not have a direct association with computer technology. One of such domains is cultural heritage \cite{wojciechowski}, and more specifically, museums. This research will be focused on virtual museums. Work in this domain has focused mainly on realistic recreation of existing museums and collections. However, VR provides many possibilities beyond this purpose. Using VR, scenarios could be created that would be impractical or even impossible to create in the real world. Therefore, this research will look beyond simply replicating museums, and will aim to find new ways of improving the user experience by using visual effects in VR.
 
 
 \subsection{Related Work}
-An example of how VR can be applied to cultural heritage, is to exhibit pieces for which museums do not have the space. The ARCO system of Wojciechowski et al. \cite{wojciechowski} provides museums a tool to build and manage their Virtual and Augmented reality exhibitions. Another example of using VR in museums can be seen in The Westfries museum in Hoorn in the Netherlands. They have created a VR experience \cite{westfries} as a piece of their exhibition to relive Hoorn in the Dutch Golden Age. Also, famous museums like Louvre provide virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to visit the museum without physically being there.
+The famous museum Louvre provides virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to visit the museum without physically being there. Instead of using pictures, Wojciechowski et al. \cite{wojciechowski} developed the ARCO system that provides museums to build and manage their Virtual and Augmented reality exhibitions. Whole virtual museums can be built. Additionally, museums are also able to show pieces for which they do not have the physical space for it. The creation of the virtual space can even be taken a step further by creating a whole different virtual scene. The Westfries museum in Hoorn in the Netherlands has created a VR experience \cite{westfries} as a piece of their exhibition, to relive Hoorn in the Dutch Golden Age.
 
-The abovementioned research and projects on this domain of VR in cultural heritage, focus on imitating the original environment or creating a new environment which portrays the environment like it was historically. When talking about paintings, these art pieces are just still objects in the virtual environment, displayed in such a way that everything looks as realistic as possible.
+%An example of how VR can be applied to cultural heritage, is to exhibit pieces for which museums do not have the space. The ARCO system of Wojciechowski et al. \cite{wojciechowski} provides museums a tool to build and manage their Virtual and Augmented reality exhibitions. Another example of using VR in museums can be seen in The Westfries museum in Hoorn in the Netherlands. They have created a VR experience \cite{westfries} as a piece of their exhibition to relive Hoorn in the Dutch Golden Age. Also, famous museums like Louvre provide virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to visit the museum without physically being there.
 
-This project, however, has the goal of utilizing the possibilities of VR by creating virtual objects and effects to change the environment of the paintings. These changes would otherwise be very difficult, or in some cases even impossible, to represent in a real museum. The changes are meant to complement the paintings by creating a mood that fits the painting or even make it more interactive compared to the traditional setup of a hanging painting. Ultimately, this idea can change the traditional idea of only looking at inanimate paintings in museums, to a new technology-rich museum tour attracting new visitors. The changes made to the environment of the art pieces aim to have an enhancing effect on the enjoyment level of the visitor by creating a new experience in visiting virtual museums.
+The abovementioned research and projects on this domain of VR in cultural heritage focus on imitating the original environment, or on creating a new environment which portrays the environment like it was historically. 
 
+The traditional setup of a quiet white room is not the only way to view paintings. The Tate Sensorium\cite{tate1} in Tate Britain added touch, taste, smell and sound in their galleries \cite{tate2}. In this example, the setting of the painting was modified to change the way viewers perceive it. Using VR, these modalities can also be used, without needing to adapt the physical environment.
 
-\section{Research Goal}
-We present effects that can be used to enhance the experience of viewing paintings in a museum setting. Additionally, we collect feedback from people who would not normally visit museums, posing the question whether they would visit a museum that incorporates these effects. There are lot of ways to alter the surroundings of the painting that would possibly enhance the experience of looking at a painting, and make it more interesting, as listed in table~\ref{tab:effect_ideas}.
+The IllumiRoom system \cite{illumiroom} enhances the experience of playing a game or watching a movie by projecting additional information around the high resolution display, in the peripheral view of the user. This setting is similar to ours, where the user is looking at a painting while the surroundings are altered. Various effects are discussed in the paper, all of which add extra context based on events occurring on the display. The IllumiRoom system augments the physical surrounding of the player to create a better gaming experience. This project will lend the idea of changing the surrounding of a painting to enhance the user experience  when watching a painting.
 
+The surrounding effects are not simple to realize in physical museums. Especially animated effects are difficult to create in galleries without the necessary equipment. Projectors can be used to project animations on the walls, but this would result in shadows when people are walking by. The room would also have to be dark, in order to make the projection properly visible. Large displays can be used to avoid these issues. However, these screens require a considerable amount of money. Due to these shortcomings, VR is a more suitable medium for the realization of these effects. 
+
+%This project, however, has the goal of utilizing the possibilities of VR by creating virtual objects and effects to change the environment of the paintings. These changes would otherwise be very difficult, or in some cases even impossible, to represent in a real museum. The changes are meant to complement the paintings by creating a mood that fits the painting or even make it more interactive compared to the traditional setup of a hanging painting. Ultimately, this idea can change the traditional idea of only looking at inanimate paintings in museums, to a new technology-rich museum tour attracting new visitors. The changes made to the environment of the art pieces aim to have an enhancing effect on the enjoyment level of the visitor by creating a new experience in visiting virtual museums.
+
+%oh, dus commenten gaat met %!
+
+\section{Design Space}
+
+A museum usually provides different types of exhibitions pieces. Like the related work of Tate Sensorium to change the perception of paintings, this project will also focus on paintings as exhibition pieces.
+
+There are lot of ways to alter the surroundings of the painting that could potentially enhance the experience of looking at a painting, and make it more interesting. Some of them are listed in table~\ref{tab:effect_ideas}. These effects can be categorized as follows:
 \begin{table}
 \begin{tabular}{ | p{5.5cm} | p{5.7cm} | }
 \hline
@@ -43,62 +56,111 @@ Wall in style of the painting & Room in style of the painting (altered 3D models
 Extended painting & Extend the painting over all textures in the room \\\hline
 IllumiRoom 'weather effect' on wall & Moving freely through the room  \\\hline
 \end{tabular}
-\caption{Different possible effects that can be applied to a museum room in VR}
+\caption{Some effects that can be applied to a museum room in VR}
 \label{tab:effect_ideas}
 \end{table}
 
-\subsection{Effects}
+\begin{itemize}
+\item Affecting wall behind painting
+\begin{itemize}
+\item Directly around the painting
+\item The whole wall
+\end{itemize}
+\item Affecting the room
+\begin{itemize}
+\item Walls of the room
+\item The 3D space
+\end{itemize}
+\end{itemize}
 
-One of the most basic things to do to change the direct environment of a painting is to simply paint the wall in a color that makes the painting stand out better. In the virtual space, the wall would not need to be one color, however it could change colors over time. In this way, a mood can be created in the room to match the painting. This effect could affect only the wall the painting is hanging from, or the entire room. 
+\subsection{Still Effects}
 
-Another simple change would be to decorate the wall with a picture. In some museums, when displaying a collection of pictures or drawings, one of the images is shown on the back wall behind the frames. A video would be the more dynamic version of this. For example, behind old news pictures, a news video from covering the same event could be shown. The emphasis would still be on the pictures, and the video could intensify the experience by making the surroundings supplement the displayed art.
+In this section we will discuss a number of effects that could be used to change the surroundings of a painting. We will then go into more detail about the effects we will use in section \ref{sec:animeffects}.
 
-In \cite{gatys}, a picture is altered to be stylized in the same way as a painting is. An image is produced that still shows the content of the picture, but it appears to be painted in the same style as the painting. This could make for a better backdrop to the painting than a regular picture would, as it better resembles the painting.
+\begin{itemize}
 
-Since the algorithm \cite{gatys} is performed on an input image, it could in theory be performed on the image that is displayed to a user of a VR system. In this way, the entire museum can be made to look like it was painted. However, the environment would then seem to change with every small head movement, and the algorithm would have to be able to alter the image fast enough to ensure that the application still has a decent framerate. Instead, the 3D models and textures of the museum room can be altered to make them match the style of the painting. 
+\item{\textbf{Static color on the wall}}
+\\One of the most basic things to do to change the direct environment of a painting is to simply paint the wall in a color that makes the painting stand out better. These colors could affect the ambiance of the room and the mood of the person\cite{mood} viewing the painting. This effect could affect only the wall around the borders of the painting, the whole wall the painting is hanging from, or the entire room.
+%\\One of the most basic things to do to change the direct environment of a painting is to simply paint the wall in a color that makes the painting stand out better. In the virtual space, the wall would not need to be one color, but could change color over time. These colors could greatly affect the ambiance of the room and thus the mood of the person viewing the painting. This effect could affect only the wall the painting is hanging from, or the entire room.
 
-If a painting is a window into the world of the painter, then what is behind that museum wall? With a method called inpainting \cite{inpainting}, it is possible to extrapolate information from the painting and apply it to the empty wall surrounding it. In this way, the wall can be made to look like an extension of the painting - like the wall and the painting are actually one big painting.
+\item{\textbf{Picture in genre of painting}} 
+\\Another change would be to decorate the wall with a picture. In some museums, when displaying a collection of pictures or drawings, one of the images is shown on the back wall behind the frames. The size of the picture can be determined. 
 
-The IllumiRoom paper \cite{illumiroom} focusses on displaying information to the peripheral vision of the user, who is looking at a high-resolution display. In our case, the viewer is not restricted to focussing on the painting itself. Nevertheless, one of the ideas from this paper can apply to paintings as well: the \emph{Snow} effect. In the Illumiroom system, snowflakes were shown falling over the walls and furniture in the room. We can replicate that in 3D in a virtual museum, and think of different effects for different themes (categories) of paintings.
+%Another change would be to decorate the wall with a picture. In some museums, when displaying a collection of pictures or drawings, one of the images is shown on the back wall behind the frames. A video would be the more dynamic version of this. For example, behind old news pictures, a news video from covering the same event could be shown. The emphasis would still be on the pictures, and the video could intensify the experience by making the surroundings supplement the displayed art.
 
-\subsection{Animated Effects}
+\item{\textbf{Picture in style of the painting}}
+In \cite{gatys}, a picture is altered to be stylized in the same way as a painting is. An image is produced that still shows the content of the picture, but it appears to be painted in the same style as the painting. This could make for a better backdrop to the painting than a regular picture would, as it better resembles the painting. Since the algorithm can be applied to any type of image, three different ways of applying it in our museum setting come to mind. 
 
-Animated effects are difficult to create in physical museums without the necessary equipment. Projectors can be used to project animations on the walls, but this would result in shadows when people are walking by. The room would also have to be dark, in order to make the projection properly visible. Large displays can be used to avoid these issues. However, these screens will require a considerable amount of money. Due to these shortcomings, VR would be a more suitable medium for the realization of these effects. 
+Firstly, the style of the painting could simply be applied to a single object in the environment, such as a picture projected on a wall. This could easily be done using preprocessing. 
 
-The first idea of an animated effect is to make the painting expand over the back wall while the user is watching it. This can be done by using painting expansion software \cite{inpainting}. The wall around the painting is filled with textures extrapolated from the painting.
+Secondly, the style could be applied as a post-processing effect to the user's field of view. This would create a very dominant effect. However, some issues can be foreseen with this type of application, as processing might take too long to maintain a decent framerate and a very subtle change in head orientation could cause a very large change in the rendered view. 
 
-Another animation effect uses a picture shown on the back wall, where the picture slowly morphs into the same style as the painting. In \cite{gatys}, the grade of stylization can be controlled. In this way, multiple images can be produced that are in style somewhere in between the unaltered picture and the style of the painting. With those, an animation can be made of the picture slowly changing to match the style of the painting.
+Finally, we can apply the style of the painting to the textures of all objects in the room. This way we can take advantage of preprocessing and therefore avoid the drawbacks of the previous method. A possible downside however, is that the effect would only be applied to textures and therefore would not affect 3D shapes and shadows.
 
-Lastly, the room will be filled with particles that relate in some way to the painting (weather effects like the IllumiRoom \emph{Snow} effect \cite{illumiroom}), like snowflakes with a snowy painting or leaves with a painting of a forest. These effects are discussed in more detail in section \ref{sec:methods}.
 
-These animated effects are the most radical changes to the environment of the painting. We will use these effects in our study.
+% Since the algorithm \cite{gatys} is performed on an input image, it could in theory be performed on the image that is displayed to a user of a VR system. In this way, the entire museum can be made to look like it was painted. However, the environment would then seem to change with every small head movement, and the algorithm would have to be able to alter the image fast enough to ensure that the application still has a decent framerate. Instead, the 3D models and textures of the museum room can be altered to make them match the style of the painting. ^
 
-\subsection{Virtual Reality}
+\item{\textbf{Extending painting}}
+\\If a painting is a window into the world of the painter, then what is behind that museum wall? With a method called inpainting \cite{inpainting}, it is possible to extrapolate information from the painting and apply it to the empty wall surrounding it. In this way, the wall can be made to look like an extension of the painting - like the wall and the painting are actually one big painting.
 
-This project will be implemented in Virtual Reality. That way, we are able to use effects that would otherwise be difficult or impossible to achieve in a real world museum. The reason for choosing VR as opposed to Augmented Reality (AR), is because VR is at the moment in a later stage of development than AR. An additional benefit is that, by using VR, the side effects that could occur in a real room (like dirt or damage to the wall, or having a darkened room because an effect is achieved by using a projector) can be prevented. Additionally, much more is possible in VR than in AR or in reality. AR can for example use gravity defying objects, but VR can also alter the (3D models of) furniture in the room.
+% The IllumiRoom paper \cite{illumiroom} focusses on displaying information to the peripheral vision of the user, who is looking at a high-resolution display. In our case, the viewer is not restricted to focussing on the painting itself. Nevertheless, one of the ideas from this paper can apply to paintings as well: the \emph{Snow} effect. In the Illumiroom system, snowflakes were shown falling over the walls and furniture in the room. We can replicate that in 3D in a virtual museum, and think of different effects for different themes (categories) of paintings. v
+
+%The IllumiRoom system \cite{illumiroom} uses a projector to display additional information in the peripheral vision of the user, while the user is focused on a high-resolution display placed in the center of the projection. This setting is similar to ours, where the user is focused on a painting while the surroundings are altered. Various effects are discussed in the paper, all of which add extra context based on events occuring on the display. Many of these effects can be applied to a painting. An example is the \emph{Snow} effect. In the IllumiRoom system, this effect displays snowflakes falling over the walls and furniture of the room. This effect is animated and can be extended to 3D, making it very interesting for our research. Additionally, it can be generalized to different types of weather or particle effects such as rain, falling leaves or mist.
+
+\end{itemize}
+
+\subsection{Animated Effects}\label{sec:animeffects}
+
+%Animated effects are difficult to create in physical museums without the necessary equipment. Projectors can be used to project animations on the walls, but this would result in shadows when people are walking by. The room would also have to be dark, in order to make the projection properly visible. Large displays can be used to avoid these issues. However, these screens will require a considerable amount of money. Due to these shortcomings, VR would be a more suitable medium for the realization of these effects. We have selected three different effects to use for this research.
+
+As animated effects are difficult to manage in physical museums, it becomes very interesting for the virtual museums. Combining the virtual museum with these effects in VR can create a new experience in the virtual tours. Some effects mentioned in the previous section can also have a animated variant and some effect can only be achieved when animated.
+
+\begin{itemize}
+
+\item{\textbf{Changing colors on the wall}}
+\\In the virtual space, the wall would not need to be one color, but could change color over time.
+
+\item{\textbf{Video related to the painting}}
+\\A video would be the more dynamic version of the still picture. For example, behind old news pictures, a news video covering the same event could be shown. The emphasis would still be on the pictures, and the video could intensify the experience by making the surroundings supplement the displayed art.
+
+\item{\textbf{Picture in style of the painting}}
+\\Another animation effect uses a picture shown on the back wall, where the picture slowly morphs into the same style as the painting. In \cite{gatys}, the grade of stylization can be controlled. In this way, multiple images can be produced that are in style somewhere in between the unaltered picture and the style of the painting. With those, an animation can be made of the picture slowly changing to match the style of the painting.
+
+\item{\textbf{Extending Painting}}
+\\For this animated effect, the painting expands over the back wall while the user is watching it. This can be done by using painting expansion software \cite{inpainting}. The wall around the painting is filled with textures extrapolated from the painting.
+
+
+\item{\textbf{IllumiRoom 'weather effects'}}
+\\Lastly, the room or walls can be filled with particles that relate in some way to the painting, like snowflakes for a snowy painting or leaves for a painting of a forest. These effects are based on the IllumiRoom \emph{Snow} effect \cite{illumiroom} and are discussed in more detail in section \ref{sec:methods}.
+\end{itemize}
+
+For this research, the animated effects of the stylization, extension of the painting and the illumiRoom weather effect sound the most promising to see as a visual effect. These are also effects that can be more easily performed through VR, as opposed to a real setting.
+
+\section{Research Goal}
+% We present effects that can be used to enhance the experience while viewing paintings in a museum setting. Additionally, we collect feedback from people who would not normally visit museums, posing the question whether they would visit a museum that incorporates these effects. There are lot of ways to alter the surroundings of the painting that would possibly enhance the experience of looking at a painting, and make it more interesting, as listed in table~\ref{tab:effect_ideas}. v
+The goal of this research is to find ways of improving the user experience in a virtual museum setting. We aim to find interesting visual effects that could be applied in various applications related to virtual museums. We hope this will open up new possibilities of getting people who are not interested in visiting museums more interested in art by offering them a unique and accessible way to explore art collections.
+
+
+%\subsection{Virtual Reality}This project will be implemented in Virtual Reality. That way, we are able to use effects that would otherwise be difficult or impossible to achieve in a real world museum. The reason for choosing VR as opposed to Augmented Reality (AR), is because VR is at the moment in a later stage of development than AR. An additional benefit is that, by using VR, the side effects that could occur in a real room (like dirt or damage to the wall, or having a darkened room because an effect is achieved by using a projector) can be prevented. Additionally, much more is possible in VR than in AR or in reality. AR can for example use gravity defying objects, but VR can also alter the (3D models of) furniture in the room.
 
 \subsection {Research Questions}
-We would like to figure out whether the chosen effects affect the experience of viewing a painting, and whether they affect the duration the viewer looks at the painting. We want to know which effect enhances the experience the most.
+We would like to investigate whether the chosen effects affect the experience of viewing a painting, and whether they affect the duration the viewer looks at the painting. We want to know which effect enhances the experience the most.
 
 \emph{How do visual effects affect the experience of viewing a painting in a VR setting?}
 
 The three animated effects will be compared with a museum room without any effects. A user study will be conducted to research how the effects change the experience of looking at a painting in a museum. 
-We want to measure how interesting these settings are to look at, and ask our test participants whether they would visit an art museum if it utilized effects like these to make the artwork seem more dynamic. 
-We are also interested in what they find most interesting to look at - are they more interested in the painting itself, or in our effects? Are they comparing, looking to and from the painting and its background (or foreground, in case of the weather effects). Are people still looking at the painting with so much going on around it? 
-Two questions can be asked, the answers to which can answer the main question.
+We want to measure how interesting and enjoyable these settings are to look at. We are particularly interested in whether or not the effects can generate more interest in art in people who are generally not interested in visiting museums.
+We are also interested in what they find most interesting to look at - are they more interested in the painting itself, or in our effects? Are they comparing, looking to and from the painting and its background (or foreground, in case of the weather effects). Are people still looking at the painting with so much going on around it? We ask two subquestions which will contribute to answering our main research question.
 
 \emph{How do the effects influence the enjoyment of viewing a painting?}
 
-\emph{What part of the setting is the center point of attention?} 
-
-\subsection {Hypothesis}
-We expect that every effect will captivate the viewer for a longer period of time than a regular painting in a white room would. Viewers will take more time to view the surroundings with the effects, while they might not spend more time watching the actual painting. As a result, we expect the effects to enhance the experience of viewing paintings for those who normally do not like to view paintings. The expanding painting option will probably amaze the most - more than the picture stylization effect, and more than the IllumiRoom inspired 'weather effects'.
+\emph{What part of the setting is the center point of attention?}
 
 \section{Methods} \label{sec:methods}
 
 The application will be implemented using Google Cardboard. Google Cardboard is a VR device that uses a smartphone as a display. This device has the benefit of being cheap, portable and easy to use, making it easily accessible to museums or individuals.
 
-To test our hypothesis, we will implement various effects for different paintings and use them to conduct a user study. In order to generalize the results, paintings with four different types of content, painted in two different artistic styles will be used. For each combination, two different paintings will be selected as a representation. This means we will use a total of sixteen different paintings. Although using more paintings would give a better indication of the generalizability of the effects, this is not feasible within the scope of this research, due to the amount of time it would take to gather participants and conduct the experiments. To achieve reliable results, the paintings used will be carefully selected, such that they provide a good representation of a large collection of paintings.
+To test our hypothesis, we will implement various effects for different paintings and use them to conduct a user study. In order to generalize the results, paintings with four different types of content, painted in two different artistic styles will be used. For each combination, two different paintings will be selected as a representation. This means we will use a total of sixteen different paintings. Although using more paintings would give a better indication of the generalizability of the effects, this is not feasible within the scope of this research, due to the amount of time it would take to gather participants and conduct the experiments. In order to achieve reliable results, the paintings used will be carefully selected, so that they provide a good representation of a large collection of paintings.
 
 For the content we will use the following categories:
 
@@ -116,7 +178,7 @@ We will use the following artistic styles:
 \item \textbf{Abstract paintings.} Paintings depicting the content using shapes, colors and stylization that do not exist in realistic scenes.
 \end{itemize}
 
-For each painting, we will apply the following three effects:
+For each painting, we will apply the following three animated effects:
 
 \begin{itemize}
 \item \textbf{Stylized picture.} For this effect we will overlay a picture on the wall behind the painting. The style of the painting will be applied to the picture using methods described in \cite{gatys}.
@@ -126,13 +188,16 @@ For each painting, we will apply the following three effects:
 
 \subsection{Experiment Setup}
 
-For the experiment, participants will be subdivided into four groups. We will have one group for each effect, and one control group to which a default museum room will be presented. Each group will look at each of the sixteen paintings. For each person, the setup for the sixteen settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. These objects will be used to facilitate features of various effects. Apart from this, the room will be fairly plain in order to avoid distraction.
+The animated effects can be implemented in various ways, including different values for parameters such as speed or behaviors of animation. To get a set value for these settings, a pre-experiment will be done to find the most promosing effects. This can first be done internally and then tested on a few people, them giving their opinion about the different settings of the effects. These participants are not allowed to join the main experiment anymore as they have seen the effects before. This can influence their final judgment.
+
+For the main experiment, participants will be subdivided into four groups. These groups consist of at least twenty participants. We will have one group for each effect, and one control group to which a default museum room will be presented. Each group will look at each of the sixteen paintings. 
+For each participant, the environment for the sixteen settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. These objects will be used to facilitate features of various effects. Apart from this, the room will be fairly plain in order to avoid distraction.
 
 The first three groups will each have an effect applied during the tests. Each of these groups will be presented with one of the three effects discussed above. The fourth group will simply be placed inside the default room with no effect applied. After a participant has finished the tests, he will fill out a survey. 
 
-Using a survey, we intend to measure the user's sense of presence and enjoyment. These two metrics have been shown to be correlated in related applications \cite{sylaiou}. Though this is not definitive proof that they are correlated in the context of virtual museums, it is an indication that they might be linked in more general cases. Therefore, these two metrics will likely be a good indication of the overall user experience. The surveys and measurements will be discussed in Section \ref{sec:measurements}.
-
 \subsubsection{Measurements}\label{sec:measurements}
+
+Using a survey, we intend to capture the user's sense of presence and enjoyment. These two metrics have been shown to be correlated in related applications \cite{sylaiou}. Though this is not definitive proof that they are correlated in the context of virtual museums, it indicates that they might be linked in more general cases. Therefore, these two metrics will likely be a good indication of the overall user experience. The surveys and measurements will be discussed in Section \ref{sec:measurements}.
 
 To measure the participants' interest in the painting and the effect, the direction in which they are looking will be tracked during the experiment. The amount of time the participants are looking directly at the painting or at the effect will be measured in order to determine whether or not the environment draws away their attention from the painting. We will determine whether this has a positive or negative effect on enjoyment with the survey.
 
@@ -140,15 +205,18 @@ To measure presence we will use an adapted version of the presence questionnaire
 
 To measure enjoyment we will use an adapted version of The Groningen Enjoyment Questionnaire \cite{stevens}.
 
-\subsection{Results}
-
-The measured variables will be statistically analyzed. We will compare the results of all groups to determine the difference between multiple effects and the default case. Our results will show the differences in terms of interest, presence and enjoyment for each combination of groups. We will then be able to draw conclusions and discuss the impact of the different effects.
+The measured variables will be statistically analyzed. We will compare the results of all groups to determine the difference between multiple effects and the default case. Our results will show the differences in terms of interest, presence and enjoyment for each combination of groups. These results will grant insight into the impact of the different effects.
 
 
-\section {Conclusion}
-This research will help expand the world of digital museums. In virtual reality, not everything has to behave like it would in the real world. This research explores and tries to expand the borders of virtual museums by adding effects that would normally be impractical without the use of VR. This specific area is largely unexplored and could open up a lot of possibilities.
+\section {Hypothesis \& Conclusion}
+% Dit is nog letterlijk copy-pasta van hypothese...
+We expect that every effect will captivate users more than a regular painting in a white room would, causing them to use the application for a longer period of time. Since the effects will draw their attention, users will likely spend more time watching the surroundings with the effects, as opposed to watching the painting itself. As a result, we expect the effects to enhance the experience of viewing paintings for those who normally are not interested in viewing paintings, and possibly spark an interest in art.
 
-This research could bring forth new ideas for real life museums to make their exhibits interesting to people who would normally not visit them. This research could tell them what kind of effect would be interesting to those people, possibly interesting enough for them to visit the museum. These people could then look at the paintings through an Augmented Reality headset, or through the camera of their smartphone, while the regular visitors can still enjoy the painting on a bland wall. 
+This research will help expand the world of digital museums. In virtual reality, not everything has to behave like it would in the real world. This research explores and tries to expand the borders of virtual museums by adding effects that would be impractical without the use of VR. This specific area is largely unexplored. Research in this area could open up a lot of possibilities.
+
+Real life museums could make their exhibits more interesting to people who would normally not visit them. This research could tell them what kind of effect would be interesting to those people. These people could then look at the paintings through an Augmented Reality headset, or through the camera of their smartphone, while the regular visitors can still enjoy the painting on a bland wall. Alternatively, they could visit parts of the museum in VR, and visit the real museum afterwards.
+
+
 
 \begin{thebibliography}{99}
 
@@ -161,6 +229,11 @@ http://www.merriam-webster.com/dictionary/virtual\%20reality
 \emph{Narrowing gender-based performance gaps in virtual environment navigation},
 Computers in Human Behavior 28, p 809-819, 2012
 
+\bibitem{kickstarter}
+\emph{Oculus Rift: Step Into the Game}
+Web [Last accessed on November 5, 2015]
+https://www.kickstarter.com/projects/1523379957/oculus-rift-step-into-the-game/description
+
 \bibitem{oculus}
 \emph{Rift}
 Web [Last accessed on October 20, 2015]
@@ -170,6 +243,19 @@ https://www.oculus.com/ja/rift/
 \emph{Samsung Gear VR}
 Web [Last accessed on October 20, 2015]
 http://www.samsung.com/global/microsite/gearvr/index.html
+
+
+\bibitem{tate1}
+\emph{IK Prize 2015: Tate Sensorium}
+Web [Last accessed on November 5, 2015]
+http://www.tate.org.uk/whats-on/tate-britain/display/ik-prize-2015-tate-sensorium
+
+\bibitem{tate2}
+\emph{Welcome to Tate Sensorium: taste, touch and smell art - video}, 
+The Guardian,  25 August 2015.
+Web [Last accessed on November 5, 2015]
+http://www.theguardian.com/artanddesign/video/2015/aug/25/welcome-tate-sensorium-taste-touch-smell-art-video
+
 
 \bibitem{cardboard}
 \emph{Google Cardboard}
@@ -216,6 +302,13 @@ http://blog.wolfram.com/2014/12/01/extending-van-goghs-starry-night-with-inpaint
 \bibitem{sylaiou} Sylaiou et. al.:
 \emph{Exploring the relationship between presence and enjoyment inavirtualmuseum},
 Int. J. Human-Computer Studies 68, 2010, pp. 243--253
+
+\bibitem{mood}
+\emph{Colour Theraphy}, 
+The Guardian, 6 July 2008.
+Web [Last acsessed on November 5, 2015]
+http://www.theguardian.com/lifeandstyle/2008/jul/06/healthandwellbeing.relaxation31
+
 
 \end{thebibliography}
 
