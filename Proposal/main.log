@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.8)  4 DEC 2015 12:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.8)  4 DEC 2015 12:51
 entering extended mode
 **C:/Users/Bibi/Documents/Small*Project/Proposal/main.tex
 ("C:/Users/Bibi/Documents/Small Project/Proposal/main.tex"
@@ -754,436 +754,136 @@ Overfull \hbox (42.9732pt too wide) in paragraph at lines 385--390
 oct/21/colour-
  []
 
+[11] <ForestPaintings/R1innessautumnoaks.jpg, id=47, 521.7894pt x 347.1369pt>
+File: ForestPaintings/R1innessautumnoaks.jpg Graphic file (type jpg)
 
-<ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg, id=44, 521.7894pt 
-x 347.1369pt>
-File: ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg Graphic file (
-type jpg)
- <use ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks
-.jpg used on input line 418.
+<use ForestPaintings/R1innessautumnoaks.jpg>
+Package pdftex.def Info: ForestPaintings/R1innessautumnoaks.jpg used on input l
+ine 416.
 (pdftex.def)             Requested size: 169.0519pt x 112.46855pt.
 
-<ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autumn.jp
-g, id=45, 208.8603pt x 313.17pt>
-File: ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autu
-mn.jpg Graphic file (type jpg)
+<ForestPaintings/R2levitanbirchgrove.jpg, id=48, 355.3275pt x 204.765pt>
+File: ForestPaintings/R2levitanbirchgrove.jpg Graphic file (type jpg)
 
-<use ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autum
-n.jpg>
-Package pdftex.def Info: ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_
-of_Populars_in_Autumn.jpg used on input line 424.
-(pdftex.def)             Requested size: 143.69513pt x 215.45674pt.
+<use ForestPaintings/R2levitanbirchgrove.jpg>
+Package pdftex.def Info: ForestPaintings/R2levitanbirchgrove.jpg used on input 
+line 421.
+(pdftex.def)             Requested size: 169.0519pt x 97.4206pt.
 
-<ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg, id=46, 1927.2p
-t x 1652.574pt>
-File: ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg Graphic fi
-le (type jpg)
+<ForestPaintings/S1monetpoplars.jpg, id=49, 216.81pt x 278.7213pt>
+File: ForestPaintings/S1monetpoplars.jpg Graphic file (type jpg)
 
-<use ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg>
-Package pdftex.def Info: ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_C
-olor.jpg used on input line 434.
-(pdftex.def)             Requested size: 169.0519pt x 144.94281pt.
-
-<ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg, id=47, 216.81pt 
-x 278.7213pt>
-File: ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg Graphic file
- (type jpg)
-
-<use ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Popla
-rs.jpg used on input line 439.
+<use ForestPaintings/S1monetpoplars.jpg>
+Package pdftex.def Info: ForestPaintings/S1monetpoplars.jpg used on input line 
+436.
 (pdftex.def)             Requested size: 152.14566pt x 195.60117pt.
 
+<ForestPaintings/S2hartleyautumncolor.jpg, id=50, 1927.2pt x 1652.574pt>
+File: ForestPaintings/S2hartleyautumncolor.jpg Graphic file (type jpg)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <C:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/_Ext__Stl__
-George_Inness_-_Autumn_Oaks.jpg> <C:/Users/Bibi/Documents/Small Project/Proposa
-l/ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autumn.j
-pg>]
-<SeaPaintings/_Stl__caillebotteboatsontheseineatargenteuil.jpg, id=51, 276.7941
-pt x 337.26pt>
-File: SeaPaintings/_Stl__caillebotteboatsontheseineatargenteuil.jpg Graphic fil
-e (type jpg)
-
-<use SeaPaintings/_Stl__caillebotteboatsontheseineatargenteuil.jpg>
-Package pdftex.def Info: SeaPaintings/_Stl__caillebotteboatsontheseineatargente
-uil.jpg used on input line 456.
-(pdftex.def)             Requested size: 169.0519pt x 205.9856pt.
-
-<SeaPaintings/_Stl__aivazovskyshipinstormysea.jpg, id=52, 218.4963pt x 302.3295
-pt>
-File: SeaPaintings/_Stl__aivazovskyshipinstormysea.jpg Graphic file (type jpg)
- <use SeaPaintings/_Stl__aivazovskyshipinstormysea.jpg>
-Package pdftex.def Info: SeaPaintings/_Stl__aivazovskyshipinstormysea.jpg used 
-on input line 462.
-(pdftex.def)             Requested size: 169.0519pt x 233.92465pt.
-
-<SeaPaintings/_Stl__vangoghfishingboatsonthebeachatsaintesmarries.jpg, id=53, 3
-13.17pt x 247.4043pt>
-File: SeaPaintings/_Stl__vangoghfishingboatsonthebeachatsaintesmarries.jpg Grap
-hic file (type jpg)
-
-<use SeaPaintings/_Stl__vangoghfishingboatsonthebeachatsaintesmarries.jpg>
-Package pdftex.def Info: SeaPaintings/_Stl__vangoghfishingboatsonthebeachatsain
-tesmarries.jpg used on input line 471.
-(pdftex.def)             Requested size: 169.0519pt x 133.5548pt.
-
-<SeaPaintings/_Stl__caillebottesailingboatsatargenteuil.jpg, id=54, 264.99pt x 
-323.5287pt>
-File: SeaPaintings/_Stl__caillebottesailingboatsatargenteuil.jpg Graphic file (
-type jpg)
- <use SeaPaintings/_Stl__caillebottesailingboatsatargenteuil.jpg>
-Package pdftex.def Info: SeaPaintings/_Stl__caillebottesailingboatsatargenteuil
-.jpg used on input line 477.
-(pdftex.def)             Requested size: 169.0519pt x 206.39615pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <C:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/_Stl___Wth_
-_Marsden_Hartley_-_Autumn_Color.jpg> <C:/Users/Bibi/Documents/Small Project/Pro
-posal/ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg> <C:/Users/B
-ibi/Documents/Small Project/Proposal/SeaPaintings/_Stl__caillebotteboatsonthese
-ineatargenteuil.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintin
-gs/_Stl__aivazovskyshipinstormysea.jpg>]
-<SnowPaintings/_Stl__Road_by_Saint-Sim_on_Farm_in_Winter_-_Monet.jpg, id=58, 36
-4.7226pt x 264.99pt>
-File: SnowPaintings/_Stl__Road_by_Saint-Sim_on_Farm_in_Winter_-_Monet.jpg Graph
-ic file (type jpg)
-
-<use SnowPaintings/_Stl__Road_by_Saint-Sim_on_Farm_in_Winter_-_Monet.jpg>
-Package pdftex.def Info: SnowPaintings/_Stl__Road_by_Saint-Sim_on_Farm_in_Winte
-r_-_Monet.jpg used on input line 489.
-(pdftex.def)             Requested size: 169.0519pt x 122.82281pt.
-
-<SnowPaintings/_Stl__Dolmen_in_the_Snow_-_Caspar_David_Friedrich.jpg, id=59, 49
-7.6994pt x 370.986pt>
-File: SnowPaintings/_Stl__Dolmen_in_the_Snow_-_Caspar_David_Friedrich.jpg Graph
-ic file (type jpg)
-
-<use SnowPaintings/_Stl__Dolmen_in_the_Snow_-_Caspar_David_Friedrich.jpg>
-Package pdftex.def Info: SnowPaintings/_Stl__Dolmen_in_the_Snow_-_Caspar_David_
-Friedrich.jpg used on input line 495.
-(pdftex.def)             Requested size: 169.0519pt x 126.00902pt.
-
-<SnowPaintings/_Stl__Road_to_V_theuil__Snow_Effect_-_Monet.jpg, id=60, 337.26pt
- x 245.4771pt>
-File: SnowPaintings/_Stl__Road_to_V_theuil__Snow_Effect_-_Monet.jpg Graphic fil
-e (type jpg)
-
-<use SnowPaintings/_Stl__Road_to_V_theuil__Snow_Effect_-_Monet.jpg>
-Package pdftex.def Info: SnowPaintings/_Stl__Road_to_V_theuil__Snow_Effect_-_Mo
-net.jpg used on input line 504.
-(pdftex.def)             Requested size: 169.0519pt x 123.04538pt.
-
-<SnowPaintings/_Stl__Edvard_Munch_-_The_Yellow_Log_-_Google_Art_Project.jpg, id
-=61, 3242.36343pt x 2635.59656pt>
-File: SnowPaintings/_Stl__Edvard_Munch_-_The_Yellow_Log_-_Google_Art_Project.jp
-g Graphic file (type jpg)
-
-<use SnowPaintings/_Stl__Edvard_Munch_-_The_Yellow_Log_-_Google_Art_Project.jpg
->
-Package pdftex.def Info: SnowPaintings/_Stl__Edvard_Munch_-_The_Yellow_Log_-_Go
-ogle_Art_Project.jpg used on input line 510.
-(pdftex.def)             Requested size: 169.0519pt x 137.37755pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13 <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings/_Stl__vangoghf
-ishingboatsonthebeachatsaintesmarries.jpg> <C:/Users/Bibi/Documents/Small Proje
-ct/Proposal/SeaPaintings/_Stl__caillebottesailingboatsatargenteuil.jpg> <C:/Use
-rs/Bibi/Documents/Small Project/Proposal/SnowPaintings/_Stl__Road_by_Saint-Sim_
-on_Farm_in_Winter_-_Monet.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/
-SnowPaintings/_Stl__Dolmen_in_the_Snow_-_Caspar_David_Friedrich.jpg>]
-File: ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg Graphic file (
-type jpg)
-
-<use ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext__Stl__George_Inness_-_Autumn_Oaks
-.jpg used on input line 524.
-(pdftex.def)             Requested size: 169.0519pt x 112.46855pt.
-
-<ForestPaintings/_Ext__Gerard_Bilders_-_Bosvijver_bij_Zonsondergang.jpg, id=66,
- 1606.0pt x 988.69376pt>
-File: ForestPaintings/_Ext__Gerard_Bilders_-_Bosvijver_bij_Zonsondergang.jpg Gr
-aphic file (type jpg)
-
-<use ForestPaintings/_Ext__Gerard_Bilders_-_Bosvijver_bij_Zonsondergang.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext__Gerard_Bilders_-_Bosvijver_bij_Z
-onsondergang.jpg used on input line 530.
-(pdftex.def)             Requested size: 169.0519pt x 104.06483pt.
-
-<ForestPaintings/_Ext__Henri_Matisse_-_Olive_Trees_at_Collioure.jpg, id=67, 288
-.5982pt x 242.3454pt>
-File: ForestPaintings/_Ext__Henri_Matisse_-_Olive_Trees_at_Collioure.jpg Graphi
-c file (type jpg)
-
-<use ForestPaintings/_Ext__Henri_Matisse_-_Olive_Trees_at_Collioure.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext__Henri_Matisse_-_Olive_Trees_at_C
-ollioure.jpg used on input line 539.
-(pdftex.def)             Requested size: 169.0519pt x 141.95822pt.
-File: ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg Graphic file
- (type jpg)
-
-<use ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Popla
-rs.jpg used on input line 544.
-(pdftex.def)             Requested size: 169.0519pt x 217.33794pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <C:/Users/Bibi/Documents/Small Project/Proposal/SnowPaintings/_Stl__Road_to
-_V_theuil__Snow_Effect_-_Monet.jpg> <C:/Users/Bibi/Documents/Small Project/Prop
-osal/SnowPaintings/_Stl__Edvard_Munch_-_The_Yellow_Log_-_Google_Art_Project.jpg
-> <C:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/_Ext__Gerard_
-Bilders_-_Bosvijver_bij_Zonsondergang.jpg>]
-<SeaPaintings/_Ext__dahlmorningafterastormynight.jpg, id=71, 378.4539pt x 264.9
-9pt>
-File: SeaPaintings/_Ext__dahlmorningafterastormynight.jpg Graphic file (type jp
-g)
- <use SeaPaintings/_Ext__dahlmorningafterastormynight.jpg>
-Package pdftex.def Info: SeaPaintings/_Ext__dahlmorningafterastormynight.jpg us
-ed on input line 562.
-(pdftex.def)             Requested size: 169.0519pt x 118.37102pt.
-
-<SeaPaintings/_Ext__backhuysenshipsrunningagroundinastorm.jpg, id=72, 337.5009p
-t x 166.221pt>
-File: SeaPaintings/_Ext__backhuysenshipsrunningagroundinastorm.jpg Graphic file
- (type jpg)
-
-<use SeaPaintings/_Ext__backhuysenshipsrunningagroundinastorm.jpg>
-Package pdftex.def Info: SeaPaintings/_Ext__backhuysenshipsrunningagroundinasto
-rm.jpg used on input line 568.
+<use ForestPaintings/S2hartleyautumncolor.jpg>
+Package pdftex.def Info: ForestPaintings/S2hartleyautumncolor.jpg used on input
+ line 441.
+(pdftex.def)             Requested size: 169.0519pt x 144.94281pt.
+ [12 <C:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/R1innessau
+tumnoaks.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/R
+2levitanbirchgrove.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/ForestP
+aintings/S1monetpoplars.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/Fo
+restPaintings/S2hartleyautumncolor.jpg>]
+<SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg, id=54, 337.5009pt x 
+166.221pt>
+File: SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg Graphic file (ty
+pe jpg)
+ <use SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg>
+Package pdftex.def Info: SeaPaintings/R1backhuysenshipsrunningagroundinastorm.j
+pg used on input line 459.
 (pdftex.def)             Requested size: 169.0519pt x 83.25739pt.
 
-<SeaPaintings/_Ext__Stormy_Sea_-_Monet.jpg, id=73, 268.3626pt x 216.81pt>
-File: SeaPaintings/_Ext__Stormy_Sea_-_Monet.jpg Graphic file (type jpg)
+<SeaPaintings/R2peetersstormonthesea.jpg, id=55, 230.3004pt x 161.403pt>
+File: SeaPaintings/R2peetersstormonthesea.jpg Graphic file (type jpg)
 
-<use SeaPaintings/_Ext__Stormy_Sea_-_Monet.jpg>
-Package pdftex.def Info: SeaPaintings/_Ext__Stormy_Sea_-_Monet.jpg used on inpu
-t line 577.
+<use SeaPaintings/R2peetersstormonthesea.jpg>
+Package pdftex.def Info: SeaPaintings/R2peetersstormonthesea.jpg used on input 
+line 465.
+(pdftex.def)             Requested size: 169.0519pt x 118.47832pt.
+
+<SeaPaintings/S1monetstormysea.jpg, id=56, 268.3626pt x 216.81pt>
+File: SeaPaintings/S1monetstormysea.jpg Graphic file (type jpg)
+
+<use SeaPaintings/S1monetstormysea.jpg>
+Package pdftex.def Info: SeaPaintings/S1monetstormysea.jpg used on input line 4
+75.
 (pdftex.def)             Requested size: 169.0519pt x 136.57777pt.
 
-<SeaPaintings/_Ext__monetstormoffbelleile.jpg, id=74, 263.7855pt x 211.992pt>
-File: SeaPaintings/_Ext__monetstormoffbelleile.jpg Graphic file (type jpg)
-
-<use SeaPaintings/_Ext__monetstormoffbelleile.jpg>
-Package pdftex.def Info: SeaPaintings/_Ext__monetstormoffbelleile.jpg used on i
-nput line 582.
-(pdftex.def)             Requested size: 169.0519pt x 135.85878pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15 <C:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/_Ext__Henri
-_Matisse_-_Olive_Trees_at_Collioure.jpg> <C:/Users/Bibi/Documents/Small Project
-/Proposal/SeaPaintings/_Ext__dahlmorningafterastormynight.jpg> <C:/Users/Bibi/D
-ocuments/Small Project/Proposal/SeaPaintings/_Ext__backhuysenshipsrunningagroun
-dinastorm.jpg>]
-<SnowPaintings/_Ext__Fir_Trees_in_the_Snow_-_Caspar_David_Friedrch.jpg, id=78, 
-191.5155pt x 236.8047pt>
-File: SnowPaintings/_Ext__Fir_Trees_in_the_Snow_-_Caspar_David_Friedrch.jpg Gra
-phic file (type jpg)
-
-<use SnowPaintings/_Ext__Fir_Trees_in_the_Snow_-_Caspar_David_Friedrch.jpg>
-Package pdftex.def Info: SnowPaintings/_Ext__Fir_Trees_in_the_Snow_-_Caspar_Dav
-id_Friedrch.jpg used on input line 599.
-(pdftex.def)             Requested size: 169.0519pt x 209.04279pt.
-
-<SnowPaintings/_Ext__A_Panoramic_Winter_Landscape_-_Hendrick_Avercamp.jpg, id=7
-9, 308.8338pt x 196.0926pt>
-File: SnowPaintings/_Ext__A_Panoramic_Winter_Landscape_-_Hendrick_Avercamp.jpg 
-Graphic file (type jpg)
-
-<use SnowPaintings/_Ext__A_Panoramic_Winter_Landscape_-_Hendrick_Avercamp.jpg>
-Package pdftex.def Info: SnowPaintings/_Ext__A_Panoramic_Winter_Landscape_-_Hen
-drick_Avercamp.jpg used on input line 605.
-(pdftex.def)             Requested size: 169.0519pt x 107.3396pt.
-
-<SnowPaintings/_Ext__turnersnowstormhannibalandhisarmycrossingthealps.jpg, id=8
-0, 292.2117pt x 180.675pt>
-File: SnowPaintings/_Ext__turnersnowstormhannibalandhisarmycrossingthealps.jpg 
-Graphic file (type jpg)
-
-<use SnowPaintings/_Ext__turnersnowstormhannibalandhisarmycrossingthealps.jpg>
-Package pdftex.def Info: SnowPaintings/_Ext__turnersnowstormhannibalandhisarmyc
-rossingthealps.jpg used on input line 614.
-(pdftex.def)             Requested size: 169.0519pt x 104.5269pt.
-
-<SnowPaintings/_Ext__josephmallordwilliamturnersnowstorm.jpg, id=81, 251.2587pt
- x 185.493pt>
-File: SnowPaintings/_Ext__josephmallordwilliamturnersnowstorm.jpg Graphic file 
-(type jpg)
-
-<use SnowPaintings/_Ext__josephmallordwilliamturnersnowstorm.jpg>
-Package pdftex.def Info: SnowPaintings/_Ext__josephmallordwilliamturnersnowstor
-m.jpg used on input line 620.
-(pdftex.def)             Requested size: 169.0519pt x 124.8061pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings/_Ext__Stormy_S
-ea_-_Monet.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings/_E
-xt__monetstormoffbelleile.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/
-SnowPaintings/_Ext__Fir_Trees_in_the_Snow_-_Caspar_David_Friedrch.jpg> <C:/User
-s/Bibi/Documents/Small Project/Proposal/SnowPaintings/_Ext__A_Panoramic_Winter_
-Landscape_-_Hendrick_Avercamp.jpg>]
-<ForestPaintings/_Wth__Isaak_Ilyich_Levitan_-_Golden_Autumn.jpg, id=85, 329.551
-2pt x 216.81pt>
-File: ForestPaintings/_Wth__Isaak_Ilyich_Levitan_-_Golden_Autumn.jpg Graphic fi
-le (type jpg)
-
-<use ForestPaintings/_Wth__Isaak_Ilyich_Levitan_-_Golden_Autumn.jpg>
-Package pdftex.def Info: ForestPaintings/_Wth__Isaak_Ilyich_Levitan_-_Golden_Au
-tumn.jpg used on input line 634.
-(pdftex.def)             Requested size: 169.0519pt x 111.21674pt.
-File: ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autu
-mn.jpg Graphic file (type jpg)
-
-<use ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_of_Populars_in_Autum
-n.jpg>
-Package pdftex.def Info: ForestPaintings/_Stl___Wth__Vincent_van_Gogh_-_Avenua_
-of_Populars_in_Autumn.jpg used on input line 640.
-(pdftex.def)             Requested size: 152.14566pt x 228.12955pt.
-File: ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg Graphic fi
-le (type jpg)
- <use ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_Color.jpg>
-Package pdftex.def Info: ForestPaintings/_Stl___Wth__Marsden_Hartley_-_Autumn_C
-olor.jpg used on input line 649.
-(pdftex.def)             Requested size: 169.0519pt x 144.94281pt.
-File: ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg Graphic file
- (type jpg)
-
-<use ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Poplars.jpg>
-Package pdftex.def Info: ForestPaintings/_Ext___Stl___Wth__Claude_Monet_-_Popla
-rs.jpg used on input line 655.
-(pdftex.def)             Requested size: 169.0519pt x 217.33794pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <C:/Users/Bibi/Documents/Small Project/Proposal/SnowPaintings/_Ext__turners
-nowstormhannibalandhisarmycrossingthealps.jpg> <C:/Users/Bibi/Documents/Small P
-roject/Proposal/SnowPaintings/_Ext__josephmallordwilliamturnersnowstorm.jpg> <C
-:/Users/Bibi/Documents/Small Project/Proposal/ForestPaintings/_Wth__Isaak_Ilyic
-h_Levitan_-_Golden_Autumn.jpg>]
-<SeaPaintings/_Wth__mulierjongestormatsea.jpg, id=89, 310.761pt x 168.63pt>
-File: SeaPaintings/_Wth__mulierjongestormatsea.jpg Graphic file (type jpg)
-
-<use SeaPaintings/_Wth__mulierjongestormatsea.jpg>
-Package pdftex.def Info: SeaPaintings/_Wth__mulierjongestormatsea.jpg used on i
-nput line 667.
-(pdftex.def)             Requested size: 169.0519pt x 91.73555pt.
-
-<SeaPaintings/_Wth__backhuysenroughwater.jpg, id=90, 361.35pt x 251.9814pt>
-File: SeaPaintings/_Wth__backhuysenroughwater.jpg Graphic file (type jpg)
-
-<use SeaPaintings/_Wth__backhuysenroughwater.jpg>
-Package pdftex.def Info: SeaPaintings/_Wth__backhuysenroughwater.jpg used on in
-put line 673.
-(pdftex.def)             Requested size: 169.0519pt x 117.88528pt.
-
-<SeaPaintings/_Wth__vangoghbeachscheveningenstormyweather.jpg, id=91, 278.2395p
-t x 192.72pt>
-File: SeaPaintings/_Wth__vangoghbeachscheveningenstormyweather.jpg Graphic file
- (type jpg)
-
-<use SeaPaintings/_Wth__vangoghbeachscheveningenstormyweather.jpg>
-Package pdftex.def Info: SeaPaintings/_Wth__vangoghbeachscheveningenstormyweath
-er.jpg used on input line 682.
+<SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg, id=57, 278.2395pt x 
+192.72pt>
+File: SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg Graphic file (ty
+pe jpg)
+ <use SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg>
+Package pdftex.def Info: SeaPaintings/S2vangoghbeachscheveningenstormyweather.j
+pg used on input line 481.
 (pdftex.def)             Requested size: 169.0519pt x 117.09145pt.
 
-<SeaPaintings/_Wth__pieterbruegeldeoudestormatsea.jpg, id=92, 257.2812pt x 185.
-493pt>
-File: SeaPaintings/_Wth__pieterbruegeldeoudestormatsea.jpg Graphic file (type j
-pg)
- <use SeaPaintings/_Wth__pieterbruegeldeoudestormatsea.jpg>
-Package pdftex.def Info: SeaPaintings/_Wth__pieterbruegeldeoudestormatsea.jpg u
-sed on input line 688.
-(pdftex.def)             Requested size: 169.0519pt x 121.88797pt.
+[13 <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings/R1backhuysensh
+ipsrunningagroundinastorm.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/
+SeaPaintings/R2peetersstormonthesea.jpg> <C:/Users/Bibi/Documents/Small Project
+/Proposal/SeaPaintings/S1monetstormysea.jpg> <C:/Users/Bibi/Documents/Small Pro
+ject/Proposal/SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg>]
+<SnowPaintings/R1friedrichfirtreesinthesnow.jpg, id=62, 191.5155pt x 236.8047pt
+>
+File: SnowPaintings/R1friedrichfirtreesinthesnow.jpg Graphic file (type jpg)
+ <use SnowPaintings/R1friedrichfirtreesinthesnow.jpg>
+Package pdftex.def Info: SnowPaintings/R1friedrichfirtreesinthesnow.jpg used on
+ input line 494.
+(pdftex.def)             Requested size: 169.0519pt x 209.04279pt.
 
-Underfull \hbox (badness 1231) in paragraph at lines 689--689
-[]\OT1/cmr/m/n/10 Figure 33: \OT1/cmr/m/it/10 Storm at Sea \OT1/cmr/m/n/10 - Pi
-eter
- []
+<SnowPaintings/R2friedrichdolmeninthesnow.jpg, id=63, 497.6994pt x 370.986pt>
+File: SnowPaintings/R2friedrichdolmeninthesnow.jpg Graphic file (type jpg)
 
+<use SnowPaintings/R2friedrichdolmeninthesnow.jpg>
+Package pdftex.def Info: SnowPaintings/R2friedrichdolmeninthesnow.jpg used on i
+nput line 500.
+(pdftex.def)             Requested size: 169.0519pt x 126.00902pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<SnowPaintings/S1monetthemagpie.jpg, id=64, 361.35pt x 244.7544pt>
+File: SnowPaintings/S1monetthemagpie.jpg Graphic file (type jpg)
 
-[18 <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings/_Wth__mulierjo
-ngestormatsea.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings
-/_Wth__backhuysenroughwater.jpg>]
-<SnowPaintings/_Wth__Winter_Landscape_-_Hendrick_Avercamp.jpg, id=96, 322.0833p
-t x 192.72pt>
-File: SnowPaintings/_Wth__Winter_Landscape_-_Hendrick_Avercamp.jpg Graphic file
- (type jpg)
-
-<use SnowPaintings/_Wth__Winter_Landscape_-_Hendrick_Avercamp.jpg>
-Package pdftex.def Info: SnowPaintings/_Wth__Winter_Landscape_-_Hendrick_Averca
-mp.jpg used on input line 700.
-(pdftex.def)             Requested size: 169.0519pt x 101.15303pt.
-
-<SnowPaintings/_Wth__The_Magpie_-_Monet.jpg, id=97, 361.35pt x 244.7544pt>
-File: SnowPaintings/_Wth__The_Magpie_-_Monet.jpg Graphic file (type jpg)
-
-<use SnowPaintings/_Wth__The_Magpie_-_Monet.jpg>
-Package pdftex.def Info: SnowPaintings/_Wth__The_Magpie_-_Monet.jpg used on inp
-ut line 706.
+<use SnowPaintings/S1monetthemagpie.jpg>
+Package pdftex.def Info: SnowPaintings/S1monetthemagpie.jpg used on input line 
+510.
 (pdftex.def)             Requested size: 169.0519pt x 114.50426pt.
 
-<SnowPaintings/_Wth__The_Hunters_in_the_Snow__January__-_Bruegel.jpg, id=98, 28
-9.08pt x 200.9106pt>
-File: SnowPaintings/_Wth__The_Hunters_in_the_Snow__January__-_Bruegel.jpg Graph
-ic file (type jpg)
+<SnowPaintings/S2munchtheyellowlog.jpg, id=65, 3242.36343pt x 2635.59656pt>
+File: SnowPaintings/S2munchtheyellowlog.jpg Graphic file (type jpg)
 
-<use SnowPaintings/_Wth__The_Hunters_in_the_Snow__January__-_Bruegel.jpg>
-Package pdftex.def Info: SnowPaintings/_Wth__The_Hunters_in_the_Snow__January__
--_Bruegel.jpg used on input line 715.
-(pdftex.def)             Requested size: 169.0519pt x 117.49083pt.
-
-<SnowPaintings/_Wth__Boulevard_Saint-Denis__Argenteuil__in_Winter_-_Monet.jpg, 
-id=99, 329.5512pt x 240.9pt>
-File: SnowPaintings/_Wth__Boulevard_Saint-Denis__Argenteuil__in_Winter_-_Monet.
-jpg Graphic file (type jpg)
-
-<use SnowPaintings/_Wth__Boulevard_Saint-Denis__Argenteuil__in_Winter_-_Monet.j
-pg>
-Package pdftex.def Info: SnowPaintings/_Wth__Boulevard_Saint-Denis__Argenteuil_
-_in_Winter_-_Monet.jpg used on input line 721.
-(pdftex.def)             Requested size: 169.0519pt x 123.57414pt.
- [19 <C:/Users/Bibi/Documents/Small Project/Proposal/SeaPaintings/_Wth__vangogh
-beachscheveningenstormyweather.jpg> <C:/Users/Bibi/Documents/Small Project/Prop
-osal/SeaPaintings/_Wth__pieterbruegeldeoudestormatsea.jpg> <C:/Users/Bibi/Docum
-ents/Small Project/Proposal/SnowPaintings/_Wth__Winter_Landscape_-_Hendrick_Ave
-rcamp.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/SnowPaintings/_Wth__
-The_Magpie_-_Monet.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/SnowPai
-ntings/_Wth__The_Hunters_in_the_Snow__January__-_Bruegel.jpg> <C:/Users/Bibi/Do
-cuments/Small Project/Proposal/SnowPaintings/_Wth__Boulevard_Saint-Denis__Argen
-teuil__in_Winter_-_Monet.jpg>]
-("C:\Users\Bibi\Documents\Small Project\Proposal\main.aux") ) 
+<use SnowPaintings/S2munchtheyellowlog.jpg>
+Package pdftex.def Info: SnowPaintings/S2munchtheyellowlog.jpg used on input li
+ne 516.
+(pdftex.def)             Requested size: 169.0519pt x 137.37755pt.
+ [14 <C:/Users/Bibi/Documents/Small Project/Proposal/SnowPaintings/R1friedrichf
+irtreesinthesnow.jpg> <C:/Users/Bibi/Documents/Small Project/Proposal/SnowPaint
+ings/R2friedrichdolmeninthesnow.jpg> <C:/Users/Bibi/Documents/Small Project/Pro
+posal/SnowPaintings/S1monetthemagpie.jpg> <C:/Users/Bibi/Documents/Small Projec
+t/Proposal/SnowPaintings/S2munchtheyellowlog.jpg>] ("C:\Users\Bibi\Documents\Sm
+all Project\Proposal\main.aux") ) 
 Here is how much of TeX's memory you used:
- 11320 strings out of 494045
- 212959 string characters out of 3150809
+ 11222 strings out of 494045
+ 205957 string characters out of 3150809
  250064 words of memory out of 3000000
- 14349 multiletter control sequences out of 15000+200000
+ 14271 multiletter control sequences out of 15000+200000
  9369 words of font info for 34 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,12n,57p,899b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Programma's/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Programma's/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Programm
-a's/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Programma's/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (19 pages, 16386950 bytes).
+<C:/Programma's/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
+mma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Programma's/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Programma's/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmti10.pfb>
+Output written on main.pdf (14 pages, 12586662 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
