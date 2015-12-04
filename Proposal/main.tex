@@ -54,43 +54,43 @@ The environment of the paintings is changed by adding illusions. They can for ex
 Finally, using VR allows us to create a unique experience for each user, as opposed to having them all see the exact same thing. For these reasons, VR museums are a more suitable medium for the realization of these illusions. Additionally, the benefits and novelty of VR could create a stimulating effect for people who otherwise would not visit museums, which could eventually generate interest in museums in general.
 
 \section{Research Goal}
-The goal of this research is to find ways of improving the user experience in a virtual museum setting. While there are various types of museums, we focus on exhibitions of paintings in particular. Since paintings can be displayed as 2D images, various image processing techniques can be applied to them, which are useful for some of our methods. We aim to find interesting illusions that could be applied in various applications related to virtual museums. Visible alterations are used to change the environment of the paintings. As it is a big part of user experience, we look into the enjoyment a user experiences when looking at paintings in the altered environment. This might open up new possibilities and ideas for creating new virtual museums and possibly spark interest in those who are normally not interested in visiting museums.
+The goal of this research is to find ways of improving the user experience in a virtual museum setting. While there are various types of museums, we focus on exhibitions of paintings in particular. Since paintings can be displayed as 2D images, various image processing techniques can be applied to them, which are useful for some of our methods. Visible alterations are used to change the environment of the paintings. We aim to find interesting illusions that could be applied in various applications related to virtual museums. As it is a big part of user experience, we look into the enjoyment a user experiences when looking at paintings in the altered environment. This might open up new possibilities and ideas for creating new virtual museums and possibly spark interest in those who are normally not interested in visiting museums.
 
 \subsection {Research Questions}
 
-As indicated by our research goal, we aim to answer the following question:
+As indicated by our research goal, we want to make viewing paintings more enjoyable for people who would normally not enjoy viewing paintings very much by visually altering the environment of the painting. We call these alterations 'illusions'. We aim to answer the following question:
 \begin{itemize}
-\item{\emph{How do illusions affect the experience of viewing a painting in a VR museum setting?}}
+\item{\emph{How do illusions affect the enjoyment of viewing a painting in a VR museum setting?}}
 \end{itemize}
 The illusions will be defined and explained in section \ref{design space}. 
 
-In this research, the enjoyment of the user is seen as a big part of the user experience. As the virtual museum is a VR experience, the user's sense of presence, the feeling of being in the virtual world, might also influence the level of enjoyment. These two metrics have been shown to be correlated in related applications \cite{sylaiou}. This is a strong indication that they are correlated in the context of virtual museums, and thus in the context of our research. Therefore, measuring the presence is essential to gauge the enjoyment. Enjoyment can then in turn represent the user experience. This results in two subquestions:
-
-\begin{itemize}
-\item{\emph{How do the illusions influence the enjoyment of viewing a painting?}}
-\end{itemize}
+In this research, the enjoyment of the user is seen as a big part of the user experience. As the virtual museum is a VR experience, the user's sense of presence, the feeling of being in the virtual world, might influence the level of enjoyment. These two metrics have been shown to be connected in related applications \cite{sylaiou}. This is a strong indication that enjoyment is influenced by presence in the context of virtual museums, and thus in the context of our research. Therefore, measuring the presence is essential, as it influences enjoyment in a VR setting. Enjoyment is measured to get an indication of positive user experience. This results in the subquestion:
 
 \begin{itemize}
 \item{\emph{How do the illusions influence the sense of presence in the world of the virtual museum?}}
 \end{itemize}
 
-Besides the sense of presence and enjoyment the user experiences in the virtual world, it is also important to look at the user’s connection to the painting specifically. With the illusions, we aim to create a stronger connection between the user and the painting by extending characteristics of the painting beyond its frame. We aim to make the user feel more like he is part of the world of the painting, than of the world of the museum. This type of connection can be seen as a second layer of presence in a virtual world; the presence in the world of the painting. We will refer to this type of presence as connectedness, and ask the following subquestion:
+Besides the sense of presence and enjoyment the user experiences in the virtual world, it is also important to look at the user’s connection to the painting specifically. With the illusions, we aim to create a stronger connection between the user and the painting by extending characteristics of the painting beyond its frame. We aim to make the user feel more like he is part of the world of the painting, than of the world of the museum. This type of connection can be seen as another layer of presence in a virtual world; the presence in the world of the painting. We will refer to this type of presence as connectedness, and ask the following subquestion:
 
 \begin{itemize}
 \item{\emph{How do the illusions influence the sense of connectedness to the painting?}}
 \end{itemize}
 
-Furthermore, we are also interested in whether or not the illusions can generate more interest in art for people who are generally not interested in visiting museums. For this we want to know if the illusions create more interest to users compared to the VR museum settings without illusions. One indication for interest would be the duration people look at the painting directly. This gives raise to the following subquestion:
+Furthermore, we are interested in whether or not the illusions can generate more interest in art for people who are generally not interested in visiting museums. For this we want to know if the illusions create more interest to users compared to the VR museum settings without illusions. One indication for interest would be the duration people look at the painting directly, versus how much time they spent looking at the illusion. Additionally, users can be asked about their willingness to visit an art museum before and after using our VR application. This gives raise to the following subquestions:
 
 \begin{itemize}
 \item{\emph{How do the illusions influence the interest in the painting?}}
+\item{\emph{How do the illusions influence willingness to visit art museums?}}
 %mss overbodig... point of interest vertelt niet hoe iemand "meer" geinteresseerd is
 %\item{\emph{What part of the setting is the center point of attention?}}
 \end{itemize}
 
 \section{Design Space}\label{design space}
 
-There are lots of ways to alter the surroundings of the painting that could potentially enhance the experience of looking at a painting, and make it more interesting. For example, the color of the walls can be changed depending on the painting, or an image can be used to decorate the walls, instead of having a regular wall that is painted in one color. A few more examples of these illusions with their details will be given in the next section. Generally, the illusions can be categorized as follows:
+There are lots of ways to alter the surroundings of the painting that could potentially enhance the experience of looking at a painting, and make it more interesting. For example, the color of the walls can be changed depending on the painting, or an image can be used to decorate the walls, instead of having a regular wall that is painted in one color. A few more examples of these illusions with their details will be given in sections \ref{sec:stateffects} and \ref{sec:animeffects}. There are also many possiblitities for the space of the room where the illusion is displayed. Those are described in section \ref{sec:spaceinroom}. 
+
+\subsection{Space in the room}\label{sec:spaceinroom}
+Like in \cite{illumiroom}, there are many possible locations to project the illusions in this application. Listed here some of the possible spaces of the room that can be utilized by these illusions:
 
 \begin{comment}
 \begin{table}
@@ -126,20 +126,23 @@ IllumiRoom 'weather illusion' on wall & Moving freely through the room  \\\hline
 
 %For this research, only illusions affecting the whole wall and the 3D space will be used. The reason for this is to test if the illusions work when fully applied compared to no illusions at all. This way making decisions about the size of the area influenced by the illusions can be avoided.
 
-For this research, only illusions affecting the entire 3D space or the wall behind the painting will be considered. Since there are infinitely many ways of designing and partitioning a room, this decision is necessary to reduce the design space to a feasible number of possibilities. Besides the shape and location of the illusions, we can also distinguish between static and animated illusions. We will describe these categories of illusions in sections \ref{sec:stateffects} and \ref{sec:animeffects} respectively.
+For this research, only illusions affecting the entire 3D space or the entire wall behind the painting will be considered. Since there are infinitely many ways of designing and partitioning a room, this decision is necessary to reduce the design space to a feasible number of possibilities. 
 
-\subsection{Static Illusions}\label{sec:stateffects}
+\subsection {Types of illusions}
+Besides the shape and location of the illusions, we can also distinguish between static and animated illusions. We will describe these categories of illusions in sections \ref{sec:stateffects} and \ref{sec:animeffects} respectively.
+
+\subsubsection{Static Illusions}\label{sec:stateffects}
 
 In this subsection we will discuss the part of the design space consisting of static illusions. These illusions will alter the surroundings of the painting without the use of animations. This will serve as an introduction to the animated illusions, which will be discussed in section \ref{sec:animeffects}.
 %In this section we will give examples of static effects to change the surroundings of a painting. %We will then go into more detail about the illusions we will use in section \ref{sec:animeffects}.
 
 \begin{itemize}
 
-\item{\textbf{Static color on the wall}}
+\item{\textbf{Static color on the wall}} %Try to find some exhibition guideline research about backgrounds (colors) to paintings 
 \\One of the most basic things to do to change the direct environment of a painting is to simply paint the wall in a color that makes the painting stand out better. The best color is a color that the user does not notice and where he only remembers the colors of the painting \cite{colorwall}. These colors could also affect the ambiance of the room and the mood of the person\cite{mood} viewing the painting. This illusion could affect only the whole wall the painting is hanging from, or the entire room.
 
-\item{\textbf{Picture of same subjects as the painting}} 
-\\Another change would be to decorate the wall with a picture. In some museums, when displaying a collection of pictures or drawings, one of the images is shown on the back wall behind the frames (fig \ref{fig:picturewall}).
+\item{\textbf{Picture of a subject related to the painting}} 
+\\Another change would be to decorate the wall with a picture. Sometimes, when displaying a collection of pictures or drawings, a museum shows one of the images on the back wall behind the frames (fig \ref{fig:picturewall}).
 
 \begin{figure}[h!]
 \label{fig:picturewall}
@@ -162,7 +165,7 @@ Finally, we can apply the style of the painting to the textures of all objects i
 
 \end{itemize}
 
-\subsection{Animated Illusions}\label{sec:animeffects}
+\subsubsection{Animated Illusions}\label{sec:animeffects}
 
 Some illusions mentioned in the previous section can also have an animated variant and some illusions can only be achieved when animated.
 
@@ -185,13 +188,15 @@ Some illusions mentioned in the previous section can also have an animated varia
 \\Lastly, the room or the walls can be filled with particles that relate in some way to the painting, like snowflakes for a snowy painting or leaves for a painting of a forest in fall. Instead of basing these illusions solely on weather, they can be generalized to various particle effects based on the setting of the painting. These illusions are based on the IllumiRoom \emph{Snow} illusion \cite{illumiroom} and are discussed in more detail in section \ref{sec:methods}.
 \end{itemize}
 
+\subsection{Utilized design space} 
+
 For this research, the animated illusions of the stylized picture, extension of the painting and the IllumiRoom weather illusion appear to be the most promising to see as a visual effect. These illusions can be applied to almost any kind of painting and use modifications based directly on the painting. They can be customized extensively to fit the need of the user or curator, but also leave open the option of automatization. These illusions are very hard or even impossible to create in real museums. However, by utilizing the aspects of virtual reality, these illusions can be created in a virtual museum.
 
-Not every type of illusion is suitable to be applied on both the wall as well as in the 3D space. The same can be said about whether these illusions only have an animated version, or a static version as well. In table \ref{tab:ourillusions}, the suitable combinations can be found. These will also be the cases that are going to be tested.   
+Not every type of illusion is suitable to be applied on both the wall around the painting as well as in the 3D space. The same can be said about whether these illusions only have an animated version, or a static version as well. In table \ref{tab:ourillusions}, the suitable combinations that are going to be tested can be found. 
 
 \begin{table}
 \centering
-\begin{tabular}{ | l | >{\centering}p{1.7cm} >{\centering}p{1.7cm} >{\centering}p{1.7cm} c | }
+\begin{tabular}{ | l | >{\centering}p{1.7cm} >{\centering}p{1.7cm} | >{\centering}p{1.7cm} c | }
 \hline
  & Wall space & 3D space & Static & Animated \\\hline
 Stylized & $\surd$ &  & $\surd$ & $\surd$ \\
@@ -223,7 +228,7 @@ We are also interested in what they find most interesting to look at - are they 
 
 The application will be implemented using Google Cardboard. Google Cardboard is a VR device that uses a smartphone as a display. This device has the benefit of being cheap, portable and easy to use, making it easily accessible to museums or individuals.
 
-%uitleg nodig dat 16 paintings voldoende is om te generaliseren?
+%uitleg nodig dat 12 paintings voldoende is om te generaliseren?
 To answer our research questions, we will implement various illusions for different paintings and use them to conduct a user study. Paintings with three different types of content, painted in two different artistic styles will be used. For each combination, two different paintings will be selected as a representation. This means that we will use a total of twelve different paintings. In order to achieve reliable results, the paintings used will be carefully selected, so that they provide a good representation of a large collection of paintings. The selected paintings can be found in appendix~\ref{sec:paintings}. Even though this will likely not be sufficient to represent all paintings, with this selection, we aim to provide a fair sample of a vast group of paintings they belong to.
 
 For the content we will use the following categories:
@@ -260,16 +265,22 @@ The animated illusions can be implemented in various ways, including different v
 For the main experiment, participants will be subdivided into four groups. These groups consist of at least twenty participants. We will have one group for each illusion, and one control group to which a default museum room will be presented. Each group will look at each of the twelve paintings. 
 For each participant, the environment for the twelve settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. These objects will be used to facilitate features of various illusions. Apart from this, the room will be fairly plain in order to avoid distraction.
 
-The first three groups will each have an illusion applied during the tests. Each of these groups will be presented with one of the three illusions discussed above. The fourth group will simply be placed inside the default room with no illusion applied. After a participant has finished the tests, he will fill out a survey. 
+The first three groups will each have an illusion applied during the tests. Each of these groups will be presented with one of the three illusions discussed above. The fourth group will simply be placed inside the default room with no illusion applied. 
+
+Before and after a participant has finished the tests, he will fill out a questionnaire. The before-questionnaire will be shorter.
 
 \subsubsection{Measurements}\label{sec:measurements}
 
-Using a survey, we intend to capture the user's sense of presence and enjoyment. This survey will be an adapted and combined version of the presence questionnaire by Witmer \& Singer \cite{witmer} and The Groningen Enjoyment Questionnaire \cite{stevens}.
+The user will first be interviewed about their interest in art and willingness to visit art museums by means of a questionnaire. This questionnaire will then be repeated after the experiment so see whether their opinion has changed.
+
+Using a questionnaire, we intend to capture the user's sense of presence and enjoyment. This survey will be an adapted and combined version of the presence questionnaire by Witmer \& Singer \cite{witmer} and The Groningen Enjoyment Questionnaire \cite{stevens}.
 
 To measure the participants' interest in the painting and the illusion, the direction in which they are looking will be tracked during the experiment. The amount of time the participants are looking directly at the painting or at the illusion will be measured in order to determine whether or not the environment draws away the user's attention from the painting. 
 
 The measured variables will be statistically analyzed. We will compare the results of all groups to determine the difference between each illusion and the default case. Our results will show the differences in terms of interest, presence and enjoyment for each combination of groups. These results will grant insight into the impact of the different illusions.
 
+\subsection{Analysis}
+To Be Decided.
 
 \section {Hypothesis \& Conclusion}
 We expect that every illusion will captivate users more than a regular painting in a white room would, causing them to use the application for a longer period of time. Adding these illusions will create a new virtual museum experience, that might pique the curiosity of those who are normally not interested in museums. They might take the virtual museum tour for the illusions, and will then be exposed to the paintings nevertheless, providing a chance to raise their interest in art. 
