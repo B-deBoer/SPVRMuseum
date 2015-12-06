@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.14)  6 DEC 2015 14:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.14)  6 DEC 2015 14:11
 entering extended mode
 **main.tex
 
@@ -727,80 +727,85 @@ LaTeX Font Info:    ... okay on input line 19.
 ) ABD: EveryShipout initializing macros [1
 
 {C:/Users/Wouter/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
  [3] [4]
-<PictureWall.jpg, id=24, 1284.8pt x 856.19875pt>
+<PictureWall.jpg, id=23, 1284.8pt x 856.19875pt>
 File: PictureWall.jpg Graphic file (type jpg)
  <use PictureWall.jpg>
-Package pdftex.def Info: PictureWall.jpg used on input line 150.
+Package pdftex.def Info: PictureWall.jpg used on input line 141.
 (pdftex.def)             Requested size: 256.0748pt x 170.6488pt.
  [5 <C:/Users/Wouter/Documents/UU/0. Small project/Project Proposal/SP Proposal
-/Proposal/PictureWall.jpg>] [6] [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 314--317
+/Proposal/PictureWall.jpg>] [6]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 189.
+
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 309--312
 []\OT1/cmr/m/it/10 Rift \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-to-ber 20, 20
 15]
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 319--322
+Underfull \hbox (badness 6252) in paragraph at lines 314--317
 []\OT1/cmr/m/it/10 Samsung Gear VR \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-to
 -ber 20, 2015]
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 325--328
+Underfull \hbox (badness 1189) in paragraph at lines 320--323
 []\OT1/cmr/m/it/10 IK Prize 2015: Tate Sen-so-rium \OT1/cmr/m/n/10 Web [Last ac
 -cessed on Novem-ber
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
+Underfull \hbox (badness 10000) in paragraph at lines 325--329
 \OT1/cmr/m/n/10 http://www.theguardian.com/artanddesign/video/2015/aug/25/welco
 me-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--340
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 []\OT1/cmr/m/it/10 Google Card-board \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-
 to-ber 20, 2015]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--355
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
 []\OT1/cmr/m/it/10 Online Tours \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-to-be
 r 19, 2015]
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 383--387
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 []\OT1/cmr/m/it/10 Colour The-r-a-phy\OT1/cmr/m/n/10 , The Guardian, 6 July 200
 8.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--387
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 \OT1/cmr/m/n/10 Web [Last ac-cessed on Novem-ber 5, 2015]
  []
 
 
-Overfull \hbox (60.11214pt too wide) in paragraph at lines 383--387
+Overfull \hbox (60.11214pt too wide) in paragraph at lines 378--382
 \OT1/cmr/m/n/10 http://www.theguardian.com/lifeandstyle/2008/jul/06/healthandwe
 llbeing.relaxation31 
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 388--393
+Underfull \hbox (badness 5533) in paragraph at lines 383--388
 \OT1/cmr/m/n/10 21 Oc-to-ber 2011. Web [Last ac-cessed on Novem-ber 11, 2015]
  []
 
 
-Overfull \hbox (42.9732pt too wide) in paragraph at lines 388--393
+Overfull \hbox (42.9732pt too wide) in paragraph at lines 383--388
 \OT1/cmr/m/n/10 http://www.theguardian.com/artanddesign/jonathanjonesblog/2011/
 oct/21/colour-
  []
@@ -810,7 +815,7 @@ File: ForestPaintings/R1innessautumnoaks.jpg Graphic file (type jpg)
 
 <use ForestPaintings/R1innessautumnoaks.jpg>
 Package pdftex.def Info: ForestPaintings/R1innessautumnoaks.jpg used on input l
-ine 424.
+ine 419.
 (pdftex.def)             Requested size: 169.0519pt x 112.46855pt.
 
 <ForestPaintings/R2levitanbirchgrove.jpg, id=48, 355.3275pt x 204.765pt>
@@ -818,7 +823,7 @@ File: ForestPaintings/R2levitanbirchgrove.jpg Graphic file (type jpg)
 
 <use ForestPaintings/R2levitanbirchgrove.jpg>
 Package pdftex.def Info: ForestPaintings/R2levitanbirchgrove.jpg used on input 
-line 429.
+line 424.
 (pdftex.def)             Requested size: 169.0519pt x 97.4206pt.
 
 <ForestPaintings/S1monetpoplars.jpg, id=49, 216.81pt x 278.7213pt>
@@ -826,7 +831,7 @@ File: ForestPaintings/S1monetpoplars.jpg Graphic file (type jpg)
 
 <use ForestPaintings/S1monetpoplars.jpg>
 Package pdftex.def Info: ForestPaintings/S1monetpoplars.jpg used on input line 
-444.
+439.
 (pdftex.def)             Requested size: 152.14566pt x 195.60117pt.
 
 <ForestPaintings/S2hartleyautumncolor.jpg, id=50, 1927.2pt x 1652.574pt>
@@ -834,7 +839,7 @@ File: ForestPaintings/S2hartleyautumncolor.jpg Graphic file (type jpg)
 
 <use ForestPaintings/S2hartleyautumncolor.jpg>
 Package pdftex.def Info: ForestPaintings/S2hartleyautumncolor.jpg used on input
- line 449.
+ line 444.
 (pdftex.def)             Requested size: 169.0519pt x 144.94281pt.
  [12 <C:/Users/Wouter/Documents/UU/0. Small project/Project Proposal/SP Proposa
 l/Proposal/ForestPaintings/R1innessautumnoaks.jpg> <C:/Users/Wouter/Documents/U
@@ -849,7 +854,7 @@ File: SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg Graphic file (ty
 pe jpg)
  <use SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg>
 Package pdftex.def Info: SeaPaintings/R1backhuysenshipsrunningagroundinastorm.j
-pg used on input line 467.
+pg used on input line 462.
 (pdftex.def)             Requested size: 169.0519pt x 83.25739pt.
 
 <SeaPaintings/R2peetersstormonthesea.jpg, id=55, 230.3004pt x 161.403pt>
@@ -857,7 +862,7 @@ File: SeaPaintings/R2peetersstormonthesea.jpg Graphic file (type jpg)
 
 <use SeaPaintings/R2peetersstormonthesea.jpg>
 Package pdftex.def Info: SeaPaintings/R2peetersstormonthesea.jpg used on input 
-line 473.
+line 468.
 (pdftex.def)             Requested size: 169.0519pt x 118.47832pt.
 
 <SeaPaintings/S1monetstormysea.jpg, id=56, 268.3626pt x 216.81pt>
@@ -865,7 +870,7 @@ File: SeaPaintings/S1monetstormysea.jpg Graphic file (type jpg)
 
 <use SeaPaintings/S1monetstormysea.jpg>
 Package pdftex.def Info: SeaPaintings/S1monetstormysea.jpg used on input line 4
-83.
+78.
 (pdftex.def)             Requested size: 169.0519pt x 136.57777pt.
 
 <SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg, id=57, 278.2395pt x 
@@ -874,7 +879,7 @@ File: SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg Graphic file (ty
 pe jpg)
  <use SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg>
 Package pdftex.def Info: SeaPaintings/S2vangoghbeachscheveningenstormyweather.j
-pg used on input line 489.
+pg used on input line 484.
 (pdftex.def)             Requested size: 169.0519pt x 117.09145pt.
 
 [13 <C:/Users/Wouter/Documents/UU/0. Small project/Project Proposal/SP Proposal
@@ -889,7 +894,7 @@ sal/SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg>]
 File: SnowPaintings/R1friedrichfirtreesinthesnow.jpg Graphic file (type jpg)
  <use SnowPaintings/R1friedrichfirtreesinthesnow.jpg>
 Package pdftex.def Info: SnowPaintings/R1friedrichfirtreesinthesnow.jpg used on
- input line 502.
+ input line 497.
 (pdftex.def)             Requested size: 169.0519pt x 209.04279pt.
 
 <SnowPaintings/R2friedrichdolmeninthesnow.jpg, id=63, 497.6994pt x 370.986pt>
@@ -897,7 +902,7 @@ File: SnowPaintings/R2friedrichdolmeninthesnow.jpg Graphic file (type jpg)
 
 <use SnowPaintings/R2friedrichdolmeninthesnow.jpg>
 Package pdftex.def Info: SnowPaintings/R2friedrichdolmeninthesnow.jpg used on i
-nput line 508.
+nput line 503.
 (pdftex.def)             Requested size: 169.0519pt x 126.00902pt.
 
 <SnowPaintings/S1monetthemagpie.jpg, id=64, 361.35pt x 244.7544pt>
@@ -905,7 +910,7 @@ File: SnowPaintings/S1monetthemagpie.jpg Graphic file (type jpg)
 
 <use SnowPaintings/S1monetthemagpie.jpg>
 Package pdftex.def Info: SnowPaintings/S1monetthemagpie.jpg used on input line 
-518.
+513.
 (pdftex.def)             Requested size: 169.0519pt x 114.50426pt.
 
 <SnowPaintings/S2munchtheyellowlog.jpg, id=65, 3242.36343pt x 2635.59656pt>
@@ -913,7 +918,7 @@ File: SnowPaintings/S2munchtheyellowlog.jpg Graphic file (type jpg)
 
 <use SnowPaintings/S2munchtheyellowlog.jpg>
 Package pdftex.def Info: SnowPaintings/S2munchtheyellowlog.jpg used on input li
-ne 524.
+ne 519.
 (pdftex.def)             Requested size: 169.0519pt x 137.37755pt.
  [14 <C:/Users/Wouter/Documents/UU/0. Small project/Project Proposal/SP Proposa
 l/Proposal/SnowPaintings/R1friedrichfirtreesinthesnow.jpg> <C:/Users/Wouter/Doc
@@ -931,7 +936,7 @@ Here is how much of TeX's memory you used:
  15790 multiletter control sequences out of 15000+200000
  9369 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,12n,56p,889b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,56p,923b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
@@ -939,7 +944,7 @@ m/cmbx10.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
 gram Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Fi
 les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (14 pages, 12587600 bytes).
+Output written on main.pdf (14 pages, 12587823 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
