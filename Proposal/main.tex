@@ -27,7 +27,7 @@ VR can be applied in different domains, including those which do not have a dire
 
 
 \subsection{Virtual Museums}
-Many connections have been made between museums and the virtual  world. For example, the famous Louvre museum provides virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to 'visit' the museum without physically being there. Instead of using pictures, Wojciechowski et al. \cite{wojciechowski} developed the ARCO system that provides museums tools to build and manage their Virtual and Augmented reality exhibitions. Using the ARCO system, Whole virtual museums can be built. This enables museums to show pieces for which they do not have the physical space. 
+Many connections have been made between museums and the virtual  world. For example, the famous Louvre museum provides virtual tours consisting of 360 degrees pictures through which you can navigate \cite{louvre}. This gives people a chance to 'visit' the museum without physically being there. Instead of using pictures, Wojciechowski et al. \cite{wojciechowski} developed the ARCO system that provides museums tools to build and manage their Virtual and Augmented reality exhibitions. Using the ARCO system, whole virtual museums can be built. This enables museums to show pieces for which they do not have the physical space. 
 
 The creation of a virtual space can even be taken a step further by creating a whole different virtual scene. The Westfries museum in Hoorn in the Netherlands has created a VR experience \cite{westfries} as a piece of their exhibition, allowing visitors to relive Hoorn in the Dutch Golden Age.
 These projects on the domain of VR in cultural heritage focus on imitating the original environment, or on creating a new environment which portrays the environment like it was historically.
@@ -54,7 +54,7 @@ The environment of the paintings is changed by adding illusions. They can for ex
 Finally, using VR allows us to create a unique experience for each user, as opposed to having them all see the exact same thing. For these reasons, VR museums are a more suitable medium for the realization of these illusions. Additionally, the benefits and novelty of VR could create a stimulating effect for people who otherwise would not visit museums, which could eventually generate interest in museums in general.
 
 \section{Research Goal}
-The goal of this research is to find ways of improving the user experience in a virtual museum setting. While there are various types of museums, we focus on exhibitions of paintings in particular. Since paintings can be displayed as 2D images, various image processing techniques can be applied to them, which are useful for some of our methods. Visible alterations are used to change the environment of the paintings. We aim to find interesting illusions that could be applied in various applications related to virtual museums. As it is a big part of user experience, we look into the enjoyment a user experiences when looking at paintings in the altered environment. This might open up new possibilities and ideas for creating new virtual museums and possibly spark interest in those who are normally not interested in visiting museums.
+The goal of this research is to find ways of improving the user experience in a virtual museum setting. While there are various types of museums, we focus on exhibitions of paintings in particular. Since paintings can be displayed as 2D images, various image processing techniques can be applied to them, which are useful for some of our methods. Visible alterations are used to change the environment of the paintings. We aim to find interesting illusions that could be applied in various applications related to virtual museums. The user experience can be measured by different factors, but for this project, we will focus on the enjoyment and interest of the users when they are looking at the paintings. This might open up new possibilities and ideas for creating new virtual museums and possibly spark interest in those who are normally not interested in visiting museums.
 
 \subsection {Research Questions}
 
@@ -80,7 +80,7 @@ Furthermore, we are interested in whether or not the illusions can generate more
 
 \begin{itemize}
 \item{\emph{How do the illusions influence the interest in the painting?}}
-\item{\emph{How do the illusions influence willingness to visit art museums?}}
+\item{\emph{How do the illusions influence the willingness to physically visit art museums?}}
 %mss overbodig... point of interest vertelt niet hoe iemand "meer" geinteresseerd is
 %\item{\emph{What part of the setting is the center point of attention?}}
 \end{itemize}
@@ -148,7 +148,7 @@ In this subsection we will discuss the part of the design space consisting of st
 \label{fig:picturewall}
 \centering
 \includegraphics[width = 90mm]{PictureWall.jpg}
-\caption{An exhibition piece used as wall image at the Studio Ghibli Layout Designs exhibition in the Hong Kong Heritage Museum}
+\caption{An exhibition piece used as wall image at the Studio Ghibli Layout Designs exhibition in the Hong Kong Heritage Museum \cite{ghibli}}
 \end{figure}
 
 \item{\textbf{Picture in style of the painting}}
@@ -177,6 +177,11 @@ Some illusions mentioned in the previous section can also have an animated varia
 \item{\textbf{Video related to the painting}}
 \\A video would be the more dynamic version of the still picture. For example, behind old news pictures, a news video covering the same event could be shown. The emphasis would still be on the pictures, and the video could intensify the experience by making the surroundings supplement the displayed art.
 
+\begin{itemize}
+\item{\textbf{IllumiRoom 'weather illusions'}}
+\\The idea of using related objects can be extended to 3D. The room or the walls can be filled with particles that relate in some way to the painting, like snowflakes for a snowy painting or leaves for a painting of a forest in fall. Instead of basing these illusions solely on weather, they can be generalized to various particle effects based on the setting of the painting. These illusions are based on the IllumiRoom \emph{Snow} illusion \cite{illumiroom} and are discussed in more detail in section \ref{sec:methods}.
+\end{itemize}
+
 \item{\textbf{Picture in style of the painting}}
 \\Another animated illusion uses a picture shown on the back wall, while the picture slowly morphs into the same style as the painting. In \cite{gatys}, the grade of stylization can be controlled. In this way, multiple images can be produced that are in style somewhere in between the unaltered picture and the style of the painting. With those, an animation can be made of the picture slowly changing to match the style of the painting.
 
@@ -184,8 +189,6 @@ Some illusions mentioned in the previous section can also have an animated varia
 \\For this animated illusion, the painting expands over the back wall while the user is watching it. This can be done by using painting expansion software \cite{inpainting}. The wall around the painting is filled with textures extrapolated from the painting.
 
 
-\item{\textbf{IllumiRoom 'weather illusions'}}
-\\Lastly, the room or the walls can be filled with particles that relate in some way to the painting, like snowflakes for a snowy painting or leaves for a painting of a forest in fall. Instead of basing these illusions solely on weather, they can be generalized to various particle effects based on the setting of the painting. These illusions are based on the IllumiRoom \emph{Snow} illusion \cite{illumiroom} and are discussed in more detail in section \ref{sec:methods}.
 \end{itemize}
 
 \subsection{Utilized design space} 
@@ -388,6 +391,11 @@ The Guardian, 21 October 2011.
 Web [Last accessed on November 11, 2015]
 http://www.theguardian.com/artanddesign/jonathanjonesblog/2011/oct/21/colour-gallery-walls-musee-d-orsay
 
+\bibitem{ghibli} Tsuka
+\emph{Studio Ghibli Layout Designs - Exposition à Hong-Kong (Heritage Museum)}
+Catsuka, 14 May 2014.
+Web [Last accessed on December 5, 2015] 
+http://www.catsuka.com/news/2014-05-14/studio-ghibli-layout-designs-exposition-a-hong-kong-heritage-museum
 
 \end{thebibliography}
 
