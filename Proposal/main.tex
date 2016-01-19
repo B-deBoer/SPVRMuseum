@@ -259,10 +259,8 @@ As discussed in section \ref{sec:animeffects}, we will apply the following three
 
 The animated illusions can be implemented in various ways, including different values for parameters such as speed or behaviors of animation. To get a set value for these settings, a pre-experiment will be done to find the most promising settings in terms of enjoyment and presence. This can first be done internally and then tested on three to five people, giving their opinion about the different settings of the illusions. These participants are not allowed to join the main experiment anymore as they have seen the illusions before. This can influence their final judgment.
 
-For the main experiment, participants will be subdivided into four groups. These groups consist of at least twenty participants. We will have one group for each illusion, and one control group to which a default museum room will be presented. Each group will look at each of the twelve paintings. 
-For each participant, the environment for the twelve settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. These objects will be used to facilitate features of various illusions. Apart from this, the room will be fairly plain in order to avoid distraction.
-
-The first three groups will each have an illusion applied during the tests. Each of these groups will be presented with one of the three illusions discussed above. The fourth group will simply be placed inside the default room with no illusion applied. 
+For the main experiment, combinations of paintings and illusions will be subdivided into four groups. This is done to create four different combinations, where every painting-illusion combination can be rated by a user who has not seen that painting in our museum setting before. This means that each group will consist of twelve paintings. This means there are three paintings of each illusion, and three paintings without an illusion per group.
+For each participant, the environment for the twelve settings will be similar. Every time they will be placed in a room based on a part of a museum. The room will contain one painting and will have some additional objects such as chairs or plants. Apart from this, the room will be fairly plain in order to avoid distraction.
 
 Before and after a participant has finished the tests, he will fill out a questionnaire. The before-questionnaire will be shorter.
 
@@ -270,7 +268,7 @@ Before and after a participant has finished the tests, he will fill out a questi
 
 The user will first be interviewed about their interest in art and willingness to visit art museums by means of a questionnaire. This questionnaire will then be repeated after the experiment so see whether their opinion has changed.
 
-Using a questionnaire, we intend to capture the user's sense of presence and enjoyment. This survey will be an adapted and combined version of the presence questionnaire by Witmer \& Singer \cite{witmer} and The Groningen Enjoyment Questionnaire \cite{stevens}.
+Using a questionnaire, we capture the user's sense of presence in the virtual museum, connectedness (presence in the world of the painting) and enjoyment. This survey will be an adapted and combined version of the presence questionnaire by Witmer \& Singer \cite{witmer} and The Groningen Enjoyment Questionnaire \cite{stevens}. We will have to come up with additional questions for the very specific subject of connectedness.
 
 To measure the participants' interest in the painting and the illusion, the direction in which they are looking will be tracked during the experiment. The amount of time the participants are looking directly at the painting or at the illusion will be measured in order to determine whether or not the environment draws away the user's attention from the painting. 
 
@@ -278,7 +276,32 @@ The measured variables will be statistically analyzed. We will compare the resul
 
 
 \subsection{Analysis}
-To Be Decided.
+We will analyze the results of the presence, connectedness and enjoyment questionnaires with one-way repeated measures ANOVA. The final scores of the questionnaire will give a number that represents the enjoyment the user experienced. This is the continuous dependent variable that is needed. However, for ANOVA this has to be a variable with normal distribution. If this is not the case with the score, the Friedman analysis of variance by ranks can be used. The results of the ANOVA test will indicate whether the mean score of the control setting (no illusion) differs significantly from the mean across the three illusions. If this is the case, additional pair-wise testing will have to be done to decide whether this is true for all of the illusions, and to rank the illusions in order of desirability. Tukey’s HSD is an example of a test that can be used to do this. It is better to not use a t-test here, as a t-test would be less robust.
+
+\subsubsection{Answering the Research Questions}
+
+\emph{How do illusions affect the enjoyment of viewing a painting in a VR museum setting?}
+
+This will be tested with one-way repeated measures ANOVA on the final score resulting from the questions in the questionnaire about presence, connectedness and enjoyment. If the score does not have a normal distribution, the Friedman analysis of variance by ranks will be used instead. The results will indicate whether the score of the control illusion differs significantly from the score for the three illusions. If this is the case, additional pair-wise testing will be done to find out whether this is the case for all illusions, and to establish a ranking of the illusions. 
+
+\emph{How do the illusions influence the sense of presence in the world of the virtual museum?}
+\emph{How do the illusions influence the sense of connectedness to the painting?}
+
+These will be tested with one-way repeated measures ANOVA on the scores resulting from the presence- and connectedness-specific questions in the questionnaire. If either score does not have a normal distribution, the Friedman analysis of variance by ranks will be used instead. The results will indicate whether the score for presence or connectedness of the control illusion differs significantly from the score for the three illusions.
+
+\emph{How do the illusions influence the interest in the painting?}
+
+-Open, will probably be tested by asking details about the paintings-
+
+\emph{How do the illusions influence the willingness to physically visit art museums?}
+
+This question will be answered by reading and assessing the answers of the participants to the open question asked before and after the virtual museum experience.
+
+
+\subsubsection{Feasibility}
+The three illusions and the control without illusion serve as a 4-level categorical independent variable. With forty participants, this means that each illusion has been seen and rated 120 times, three times by each participant. Every unique painting-illusion combination will be seen and rated ten times. The central limit theorem can be used to prove a normal distribution in sample size of thirty or more. Forty participants seems more than sufficient. However, in ANOVA, the score has to have a normal distribution. Whether this is the case will have to be tested when the results are in. If a normal distribution cannot be proven, the Friedman analysis of variance by rank will have to be used. 
+
+Another issue is whether showing every painting-illusion combination ten times is enough. Since this research is about applying illusions to any painting, this is not an issue: each illusion is shown 120 times, to forty different participants.
 
 \section {Hypothesis \& Conclusion}
 We expect that every illusion will captivate users more than a regular painting in a white room would, causing them to use the application for a longer period of time. Adding these illusions will create a new virtual museum experience, that might pique the curiosity of those who are normally not interested in museums. They might take the virtual museum tour for the illusions, and will then be exposed to the paintings nevertheless, providing a chance to raise their interest in art. 
