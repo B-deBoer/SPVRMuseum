@@ -3,8 +3,12 @@ using System.Collections;
 
 public class TransparentWall : MonoBehaviour {
     Color color;
-    float newAlpha;
+    float newAlpha, timer;
     bool decreasing;
+    float speed = 0.25f;
+    float pause = 1; // Wait 1 sec when fully opaque/transparent.
+
+
 	// Use this for initialization
 	void Start () {
         color = GetComponent<Renderer>().material.color;
@@ -14,18 +18,31 @@ public class TransparentWall : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (newAlpha > 0 && decreasing)
+        if(timer > 1/speed + pause)
         {
-            newAlpha -= 0.01f;            
+            // Reset timer.
+            timer = 0;
+        }
+        else if(timer > (1/speed))
+        {
+            // Pause when fully transparant or opaque.
+            timer += Time.deltaTime;
+        }
+        else if (newAlpha > 0 && decreasing)
+        {
+            newAlpha -= Time.deltaTime * speed;
+            timer += Time.deltaTime;
         }
         else if(newAlpha < 1 && !decreasing)
         {
-            newAlpha += 0.01f; 
+            newAlpha += Time.deltaTime * speed;
+            timer += Time.deltaTime;
         }
         else
         {
             decreasing = !decreasing;
         }
+        
         color.a = newAlpha;
         this.GetComponent<Renderer>().material.color = color;
 	}

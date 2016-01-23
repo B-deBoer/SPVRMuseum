@@ -71,3 +71,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 VRMuseumApplication/Library/
+VRMuseumApplication/Temp/
