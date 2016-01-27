@@ -72,3 +72,4 @@ $RECYCLE.BIN/
 *.lnk
 VRMuseumApplication/Library/
 VRMuseumApplication/Temp/
+VRMuseumApplication/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

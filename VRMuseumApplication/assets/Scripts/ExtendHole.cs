@@ -12,8 +12,8 @@ public class ExtendHole : MonoBehaviour {
 	void Start () {
         scale = transform.localScale;
         extend = true;
-        minScale = 94;
-        maxScale = 460;
+        //minScale = 94;
+        //maxScale = 460;
 	}
 	
 	// Update is called once per frame
