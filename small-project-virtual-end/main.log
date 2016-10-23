@@ -1,0 +1,985 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.8)  24 OCT 2016 00:22
+entering extended mode
+**C:/Users/Bibi/Documents/Small*Project/small-project-virtual-end/main.tex
+("C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/main.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(C:\Programma's\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(C:\Programma's\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Programma's\MiKTeX\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Programma's\MiKTeX\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(C:\Programma's\MiKTeX\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(C:\Programma's\MiKTeX\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\Programma's\MiKTeX\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(C:\Programma's\MiKTeX\tex\latex\base\utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(C:\Programma's\MiKTeX\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(C:\Programma's\MiKTeX\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(C:\Programma's\MiKTeX\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(C:\Programma's\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(C:\Programma's\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Programma's\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen104
+))
+(C:\Programma's\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(C:\Programma's\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\Programma's\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Programma's\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\Programma's\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Programma's\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Programma's\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(C:\Programma's\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\Programma's\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(C:\Programma's\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\Programma's\MiKTeX\tex\latex\todonotes\todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(C:\Programma's\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Programma's\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(C:\Programma's\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+\XKV@depth=\count101
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(C:\Programma's\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(C:\Programma's\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\Programma's\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Programma's\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Programma's\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks24
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(C:\Programma's\MiKTeX\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(C:\Programma's\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:\Programma's\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Programma's\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count102
+\c@pgf@countb=\count103
+\c@pgf@countc=\count104
+\c@pgf@countd=\count105
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(C:\Programma's\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count106
+\pgfsyssoftpath@bigbuffer@items=\count107
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count108
+\pgfmath@box=\box29
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code
+.tex)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.te
+x) (C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
+(C:\Programma's\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count109
+))
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
+) (C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count110
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen142
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
+) (C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+) (C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen146
+\pgf@sys@shading@range@num=\count111
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+) (C:\Programma's\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(C:\Programma's\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+(C:\Programma's\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(C:\Programma's\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen147
+\pgf@nodesepend=\dimen148
+)
+(C:\Programma's\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(C:\Programma's\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+(C:\Programma's\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(C:\Programma's\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen149
+\pgffor@skip=\dimen150
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(C:\Programma's\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count112
+\pgfplotmarksize=\dimen151
+)
+\tikz@lastx=\dimen152
+\tikz@lasty=\dimen153
+\tikz@lastxsaved=\dimen154
+\tikz@lastysaved=\dimen155
+\tikzleveldistance=\dimen156
+\tikzsiblingdistance=\dimen157
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count113
+\tikznumberofchildren=\count114
+\tikznumberofcurrentchild=\count115
+\tikz@fig@count=\count116
+ (C:\Programma's\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count117
+\pgfmatrixcurrentcolumn=\count118
+\pgf@matrix@numberofcolumns=\count119
+)
+\tikz@expandcount=\count120
+
+(C:\Programma's\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(C:\Programma's\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
+) (C:\Programma's\MiKTeX\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count123
+\calc@Cskip=\skip48
+)
+\c@@todonotes@numberoftodonotes=\count124
+)
+(C:\Programma's\MiKTeX\tex\latex\tools\verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks33
+\verbatim@line=\toks34
+\verbatim@in@stream=\read2
+)
+(C:\Programma's\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen160
+\extrarowheight=\dimen161
+\NC@list=\toks35
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
+(C:\Programma's\MiKTeX\tex\latex\caption\subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(C:\Programma's\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\Programma's\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+)
+\c@ContinuedFloat=\count125
+)
+\c@subfigure=\count126
+\c@subtable=\count127
+)
+("C:\Users\Bibi\Documents\Small Project\small-project-virtual-end\main.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(C:\Programma's\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen169
+\scratchbox=\box37
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen170
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks37
+) ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+{C:/Users/Bibi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 100.
+
+
+(C:\Programma's\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+ [3] [4]
+<PictureWall.jpg, id=24, 1284.8pt x 856.19875pt>
+File: PictureWall.jpg Graphic file (type jpg)
+ <use PictureWall.jpg>
+Package pdftex.def Info: PictureWall.jpg used on input line 197.
+(pdftex.def)             Requested size: 256.0748pt x 170.6488pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/Picture
+Wall.jpg>] [7] [8] [9] [10] [11]
+<StylizedExample.png, id=47, 789.1884pt x 219.7008pt>
+File: StylizedExample.png Graphic file (type png)
+
+<use StylizedExample.png>
+Package pdftex.def Info: StylizedExample.png used on input line 356.
+(pdftex.def)             Requested size: 341.43306pt x 95.05281pt.
+
+<ExtendedExample.png, id=49, 789.1884pt x 219.7008pt>
+File: ExtendedExample.png Graphic file (type png)
+
+<use ExtendedExample.png>
+Package pdftex.def Info: ExtendedExample.png used on input line 360.
+(pdftex.def)             Requested size: 341.43306pt x 95.05281pt.
+
+<WeatherExample.png, id=50, 834.86906pt x 468.24937pt>
+File: WeatherExample.png Graphic file (type png)
+
+<use WeatherExample.png>
+Package pdftex.def Info: WeatherExample.png used on input line 364.
+(pdftex.def)             Requested size: 142.26378pt x 79.7871pt.
+ [12 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/StylizedE
+xample.png> <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/Ex
+tendedExample.png> <C:/Users/Bibi/Documents/Small Project/small-project-virtual
+-end/WeatherExample.png>] [13] [14] [15]
+<Part1Layout.png, id=66, 179.4705pt x 290.0436pt>
+File: Part1Layout.png Graphic file (type png)
+ <use Part1Layout.png>
+Package pdftex.def Info: Part1Layout.png used on input line 425.
+(pdftex.def)             Requested size: 155.24895pt x 250.89752pt.
+
+<Part2Layout.png, id=67, 179.4705pt x 290.0436pt>
+File: Part2Layout.png Graphic file (type png)
+ <use Part2Layout.png>
+Package pdftex.def Info: Part2Layout.png used on input line 427.
+(pdftex.def)             Requested size: 155.24895pt x 250.89752pt.
+
+<Part2Setup.jpg, id=68, 2457.18pt x 3276.24pt>
+File: Part2Setup.jpg Graphic file (type jpg)
+ <use Part2Setup.jpg>
+Package pdftex.def Info: Part2Setup.jpg used on input line 432.
+(pdftex.def)             Requested size: 199.16928pt x 265.55396pt.
+
+<ResultsEnjoyment.png, id=69, 367.3725pt x 225.84375pt>
+File: ResultsEnjoyment.png Graphic file (type png)
+
+<use ResultsEnjoyment.png>
+Package pdftex.def Info: ResultsEnjoyment.png used on input line 457.
+(pdftex.def)             Requested size: 227.62204pt x 139.93552pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 462.
+
+[16 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/Part1Layou
+t.png> <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/Part2La
+yout.png>] [17 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end
+/Part2Setup.jpg> <C:/Users/Bibi/Documents/Small Project/small-project-virtual-e
+nd/ResultsEnjoyment.png>] [18] [19] [20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
+[]\OT1/cmr/m/it/10 Rift \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-to-ber 20, 20
+15]
+ []
+
+[23]
+Underfull \hbox (badness 6252) in paragraph at lines 609--612
+[]\OT1/cmr/m/it/10 Samsung Gear VR \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-to
+-ber 20, 2015]
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 615--618
+[]\OT1/cmr/m/it/10 IK Prize 2015: Tate Sen-so-rium \OT1/cmr/m/n/10 Web [Last ac
+-cessed on Novem-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--624
+\OT1/cmr/m/n/10 http://www.theguardian.com/artanddesign/video/2015/aug/25/welco
+me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--630
+[]\OT1/cmr/m/it/10 Google Card-board \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-
+to-ber 20, 2015]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--645
+[]\OT1/cmr/m/it/10 Online Tours \OT1/cmr/m/n/10 Web [Last ac-cessed on Oc-to-be
+r 19, 2015]
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 685--689
+[]\OT1/cmr/m/it/10 Colour The-r-a-phy\OT1/cmr/m/n/10 , The Guardian, 6 July 200
+8.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--689
+\OT1/cmr/m/n/10 Web [Last ac-cessed on Novem-ber 5, 2015]
+ []
+
+
+Overfull \hbox (60.11214pt too wide) in paragraph at lines 685--689
+\OT1/cmr/m/n/10 http://www.theguardian.com/lifeandstyle/2008/jul/06/healthandwe
+llbeing.relaxation31 
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 690--695
+\OT1/cmr/m/n/10 21 Oc-to-ber 2011. Web [Last ac-cessed on Novem-ber 11, 2015]
+ []
+
+
+Overfull \hbox (42.9732pt too wide) in paragraph at lines 690--695
+\OT1/cmr/m/n/10 http://www.theguardian.com/artanddesign/jonathanjonesblog/2011/
+oct/21/colour-
+ []
+
+[25] <ForestPaintings/R1innessautumnoaks.jpg, id=105, 521.7894pt x 347.1369pt>
+File: ForestPaintings/R1innessautumnoaks.jpg Graphic file (type jpg)
+
+<use ForestPaintings/R1innessautumnoaks.jpg>
+Package pdftex.def Info: ForestPaintings/R1innessautumnoaks.jpg used on input l
+ine 724.
+(pdftex.def)             Requested size: 169.0519pt x 112.46855pt.
+
+<ForestPaintings/R2levitanbirchgrove.jpg, id=106, 355.3275pt x 204.765pt>
+File: ForestPaintings/R2levitanbirchgrove.jpg Graphic file (type jpg)
+
+<use ForestPaintings/R2levitanbirchgrove.jpg>
+Package pdftex.def Info: ForestPaintings/R2levitanbirchgrove.jpg used on input 
+line 729.
+(pdftex.def)             Requested size: 169.0519pt x 97.4206pt.
+
+<ForestPaintings/S1monetpoplars.jpg, id=107, 216.81pt x 278.7213pt>
+File: ForestPaintings/S1monetpoplars.jpg Graphic file (type jpg)
+
+<use ForestPaintings/S1monetpoplars.jpg>
+Package pdftex.def Info: ForestPaintings/S1monetpoplars.jpg used on input line 
+744.
+(pdftex.def)             Requested size: 152.14566pt x 195.60117pt.
+
+<ForestPaintings/S2hartleyautumncolor.jpg, id=108, 1927.2pt x 1652.574pt>
+File: ForestPaintings/S2hartleyautumncolor.jpg Graphic file (type jpg)
+
+<use ForestPaintings/S2hartleyautumncolor.jpg>
+Package pdftex.def Info: ForestPaintings/S2hartleyautumncolor.jpg used on input
+ line 749.
+(pdftex.def)             Requested size: 169.0519pt x 144.94281pt.
+ [26 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/ForestPai
+ntings/R1innessautumnoaks.jpg> <C:/Users/Bibi/Documents/Small Project/small-pro
+ject-virtual-end/ForestPaintings/R2levitanbirchgrove.jpg> <C:/Users/Bibi/Docume
+nts/Small Project/small-project-virtual-end/ForestPaintings/S1monetpoplars.jpg>
+ <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/ForestPaintin
+gs/S2hartleyautumncolor.jpg>]
+<SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg, id=112, 337.5009pt x
+ 166.221pt>
+File: SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg Graphic file (ty
+pe jpg)
+ <use SeaPaintings/R1backhuysenshipsrunningagroundinastorm.jpg>
+Package pdftex.def Info: SeaPaintings/R1backhuysenshipsrunningagroundinastorm.j
+pg used on input line 767.
+(pdftex.def)             Requested size: 169.0519pt x 83.25739pt.
+
+<SeaPaintings/R2peetersstormonthesea.jpg, id=113, 230.3004pt x 161.403pt>
+File: SeaPaintings/R2peetersstormonthesea.jpg Graphic file (type jpg)
+
+<use SeaPaintings/R2peetersstormonthesea.jpg>
+Package pdftex.def Info: SeaPaintings/R2peetersstormonthesea.jpg used on input 
+line 773.
+(pdftex.def)             Requested size: 169.0519pt x 118.47832pt.
+
+Underfull \hbox (badness 3557) in paragraph at lines 774--774
+[]\OT1/cmr/m/n/10 Figure 14: |\OT1/cmr/m/it/10 Storm on the Sea \OT1/cmr/m/n/10
+ -
+ []
+
+<SeaPaintings/S1monetstormysea.jpg, id=114, 268.3626pt x 216.81pt>
+File: SeaPaintings/S1monetstormysea.jpg Graphic file (type jpg)
+
+<use SeaPaintings/S1monetstormysea.jpg>
+Package pdftex.def Info: SeaPaintings/S1monetstormysea.jpg used on input line 7
+83.
+(pdftex.def)             Requested size: 169.0519pt x 136.57777pt.
+
+<SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg, id=115, 278.2395pt x
+ 192.72pt>
+File: SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg Graphic file (ty
+pe jpg)
+ <use SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg>
+Package pdftex.def Info: SeaPaintings/S2vangoghbeachscheveningenstormyweather.j
+pg used on input line 789.
+(pdftex.def)             Requested size: 169.0519pt x 117.09145pt.
+
+[27 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/SeaPaintin
+gs/R1backhuysenshipsrunningagroundinastorm.jpg> <C:/Users/Bibi/Documents/Small 
+Project/small-project-virtual-end/SeaPaintings/R2peetersstormonthesea.jpg> <C:/
+Users/Bibi/Documents/Small Project/small-project-virtual-end/SeaPaintings/S1mon
+etstormysea.jpg> <C:/Users/Bibi/Documents/Small Project/small-project-virtual-e
+nd/SeaPaintings/S2vangoghbeachscheveningenstormyweather.jpg>]
+<SnowPaintings/R1friedrichfirtreesinthesnow.jpg, id=119, 191.5155pt x 236.8047p
+t>
+File: SnowPaintings/R1friedrichfirtreesinthesnow.jpg Graphic file (type jpg)
+ <use SnowPaintings/R1friedrichfirtreesinthesnow.jpg>
+Package pdftex.def Info: SnowPaintings/R1friedrichfirtreesinthesnow.jpg used on
+ input line 802.
+(pdftex.def)             Requested size: 169.0519pt x 209.04279pt.
+
+<SnowPaintings/R2friedrichdolmeninthesnow.jpg, id=120, 497.6994pt x 370.986pt>
+File: SnowPaintings/R2friedrichdolmeninthesnow.jpg Graphic file (type jpg)
+
+<use SnowPaintings/R2friedrichdolmeninthesnow.jpg>
+Package pdftex.def Info: SnowPaintings/R2friedrichdolmeninthesnow.jpg used on i
+nput line 808.
+(pdftex.def)             Requested size: 169.0519pt x 126.00902pt.
+
+<SnowPaintings/S1monetthemagpie.jpg, id=121, 361.35pt x 244.7544pt>
+File: SnowPaintings/S1monetthemagpie.jpg Graphic file (type jpg)
+
+<use SnowPaintings/S1monetthemagpie.jpg>
+Package pdftex.def Info: SnowPaintings/S1monetthemagpie.jpg used on input line 
+818.
+(pdftex.def)             Requested size: 169.0519pt x 114.50426pt.
+
+<SnowPaintings/S2munchtheyellowlog.jpg, id=122, 3242.36343pt x 2635.59656pt>
+File: SnowPaintings/S2munchtheyellowlog.jpg Graphic file (type jpg)
+
+<use SnowPaintings/S2munchtheyellowlog.jpg>
+Package pdftex.def Info: SnowPaintings/S2munchtheyellowlog.jpg used on input li
+ne 824.
+(pdftex.def)             Requested size: 169.0519pt x 137.37755pt.
+ [28 <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/SnowPaint
+ings/R1friedrichfirtreesinthesnow.jpg> <C:/Users/Bibi/Documents/Small Project/s
+mall-project-virtual-end/SnowPaintings/R2friedrichdolmeninthesnow.jpg> <C:/User
+s/Bibi/Documents/Small Project/small-project-virtual-end/SnowPaintings/S1monett
+hemagpie.jpg> <C:/Users/Bibi/Documents/Small Project/small-project-virtual-end/
+SnowPaintings/S2munchtheyellowlog.jpg>] ("C:\Users\Bibi\Documents\Small Project
+\small-project-virtual-end\main.aux") ) 
+Here is how much of TeX's memory you used:
+ 12403 strings out of 494045
+ 227319 string characters out of 3150809
+ 281286 words of memory out of 3000000
+ 15435 multiletter control sequences out of 15000+200000
+ 9369 words of font info for 34 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 63i,10n,94p,2022b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Programma's/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
+/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Programma's/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Programma's/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr17.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Programma's/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.p
+fb>
+Output written on main.pdf (28 pages, 18118278 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+
